@@ -1,0 +1,74 @@
+# Darwin Gödel Machine Voice Agent - Settings
+# This file contains system-wide configuration
+
+# LLM Configuration
+llm:
+  provider: openai  # openai or anthropic
+  model: gpt-4-turbo-preview  # or claude-3-opus-20240229
+  temperature: 0.7
+  max_tokens: 2000
+  timeout: 30
+
+# Evolution Configuration
+evolution:
+  max_generations: 20
+  success_threshold: 85.0  # Score out of 100
+  plateau_generations: 5   # Stop if no improvement for N generations
+  variants_per_generation: 3  # Number of prompt variants to test
+  selection_strategy: greedy  # greedy, exploratory, or ensemble
+
+# Simulation Configuration
+simulation:
+  conversations_per_persona: 3
+  max_turns: 20  # Maximum conversation turns
+  timeout_seconds: 300  # 5 minutes max per conversation
+
+# Evaluation Configuration
+evaluation:
+  metrics:
+    goal_completion:
+      weight: 0.4  # 40% of total score
+      enabled: true
+    conversational_quality:
+      weight: 0.3  # 30% of total score
+      enabled: true
+    compliance:
+      weight: 0.3  # 30% of total score
+      enabled: true
+      fail_on_violation: true  # Stop evolution if compliance fails
+
+# Logging Configuration
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR
+  format: json  # json or text
+  save_conversations: true
+  save_evaluations: true
+  save_evolution_history: true
+
+# Database Configuration
+database:
+  type: sqlite
+  path: data/agents.db
+  backup_enabled: true
+  backup_frequency: 10  # Backup every N generations
+
+# Voice Configuration (for Phase 5)
+voice:
+  enabled: false  # Enable when ready
+  sample_rate: 16000
+  channels: 1
+  tts_provider: elevenlabs  # or google, azure
+  stt_provider: deepgram    # or google, whisper
+
+# Personas Configuration
+personas:
+  - name: angry_anthony
+    enabled: true
+  - name: evasive_emma
+    enabled: true
+  - name: curious_carlos
+    enabled: true
+  - name: cooperative_chloe
+    enabled: true
+  - name: desperate_david
+    enabled: true
