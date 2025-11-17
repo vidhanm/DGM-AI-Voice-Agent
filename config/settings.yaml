@@ -14,8 +14,22 @@ evolution:
   max_generations: 20
   success_threshold: 85.0  # Score out of 100
   plateau_generations: 5   # Stop if no improvement for N generations
+  min_improvement: 0.5     # Minimum score improvement to avoid plateau
   variants_per_generation: 3  # Number of prompt variants to test
   selection_strategy: greedy  # greedy, exploratory, or ensemble
+  mutation_strategies:     # Strategies to use for prompt mutation
+    - adaptive             # Adaptive based on performance
+    - tone_adjustment      # Adjust empathy and assertiveness
+    - structure_modification  # Reorganize prompt structure
+    - instruction_clarification  # Add specificity
+  conversations_per_persona: 1  # Conversations per persona for evaluation
+  time_limit_hours: 24     # Maximum evolution runtime
+  test_personas:           # Personas to test against
+    - angry_anthony
+    - evasive_emma
+    - curious_carlos
+    - cooperative_chloe
+    - desperate_david
 
 # Simulation Configuration
 simulation:
