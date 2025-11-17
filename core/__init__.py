@@ -7,6 +7,8 @@ versioning, and evolution tracking.
 
 from .models import AgentVersion, Conversation, Evolution, create_database, get_session
 from .agent_archive import AgentArchive
+from .config import Config, get_config, reset_config
+from .prompt_manager import PromptManager, PromptTemplate
 
 __all__ = [
     'AgentVersion',
@@ -14,5 +16,10 @@ __all__ = [
     'Evolution',
     'create_database',
     'get_session',
-    'AgentArchive'
+    'AgentArchive',
+    'Config',
+    'get_config',
+    'reset_config',
+    'PromptManager',
+    'PromptTemplate'
 ]

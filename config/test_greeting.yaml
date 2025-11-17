@@ -1,0 +1,14 @@
+name: greeting_template
+description: Simple greeting template for testing
+template: 'Hello, I''m calling from ${company}.
+
+  This is ${agent_name}.
+
+  Is this ${customer_name}?'
+variables:
+- company
+- agent_name
+- customer_name
+metadata:
+  version: '1.0'
+  test: true
