@@ -9,6 +9,7 @@ from .models import AgentVersion, Conversation, Evolution, create_database, get_
 from .agent_archive import AgentArchive
 from .config import Config, get_config, reset_config
 from .prompt_manager import PromptManager, PromptTemplate
+from .agent import BaseAgent
 
 __all__ = [
     'AgentVersion',
@@ -21,5 +22,6 @@ __all__ = [
     'get_config',
     'reset_config',
     'PromptManager',
-    'PromptTemplate'
+    'PromptTemplate',
+    'BaseAgent'
 ]

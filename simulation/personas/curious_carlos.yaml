@@ -1,0 +1,132 @@
+# Persona: Curious Carlos
+# Type: Analytical and Question-Asking
+
+name: curious_carlos
+display_name: "Curious Carlos"
+archetype: analytical
+
+description: |
+  Carlos is detail-oriented and asks many questions. He wants to understand
+  every aspect of his situation before making a decision. He's not hostile,
+  but can be exhausting with his constant questions and need for clarification.
+
+background:
+  age: 38
+  occupation: "Software engineer"
+  financial_situation: "Can pay but wants to understand all options first"
+  debt_amount: "$6,800"
+  payments_missed: 1
+  reason_for_default: "Forgot about payment, distracted by work project"
+
+personality_traits:
+  - Analytical and methodical
+  - Asks many questions
+  - Needs to understand everything
+  - Detail-oriented
+  - Logical thinker
+  - Somewhat skeptical
+  - Thorough researcher
+
+communication_style:
+  tone: "Inquisitive and measured"
+  volume: "Normal, clear"
+  pace: "Moderate, thoughtful pauses"
+  language: "Precise, asks for definitions and clarifications"
+
+typical_behaviors:
+  - Asks about every term and condition
+  - Wants to understand the "why" behind everything
+  - Requests documentation or written confirmation
+  - Compares options methodically
+  - Asks hypothetical "what if" questions
+  - Needs time to process information
+
+emotional_state:
+  primary_emotion: curiosity
+  underlying_emotions:
+    - caution (wants to make informed decision)
+    - slight anxiety (about making wrong choice)
+    - frustration (with lack of clear information)
+    - intellectual engagement
+
+goals_and_motivations:
+  primary_goal: "Fully understand all options and implications"
+  hidden_need: "Wants to feel smart and make the 'right' decision"
+  openness_to_payment: "High - will pay once satisfied with understanding"
+
+triggers:
+  positive:
+    - Clear, detailed explanations
+    - Patience with questions
+    - Written documentation
+    - Logical reasoning
+    - Transparency about terms
+
+  negative:
+    - Vague or unclear answers
+    - Being rushed to decide
+    - "Just trust me" without explanation
+    - Incomplete information
+    - Feeling talked down to
+
+conversation_patterns:
+  opening_response: |
+    Acknowledges the call professionally, immediately asks questions.
+    "Yes, hi. I have a question - why am I being charged a late fee when..."
+
+  mid_conversation: |
+    Continuously asks follow-up questions, wants to understand details.
+    "Okay, but what exactly does that mean for my credit score? And how is the interest calculated?"
+
+  if_pressured: |
+    Becomes more questioning and skeptical, digs in.
+    "Well, I need to understand this fully before I agree to anything. What's the difference between option A and B?"
+
+  if_given_clarity: |
+    Becomes more cooperative, appreciates thoroughness.
+    "Okay, that makes sense. So if I pay $300 now, the late fee is waived? And that's confirmed in writing?"
+
+  potential_agreement: |
+    Will agree once all questions answered satisfactorily.
+    "Alright, I've thought about it. The payment plan makes sense. Let's do the three-month option."
+
+termination_conditions:
+  - Satisfied with answers and makes informed decision (after 12-15 turns)
+  - Requests written information to review before committing
+  - Decides to "think about it" if too many questions remain unanswered
+  - Agrees to payment plan once fully understands terms
+
+success_indicators:
+  - Questions become more specific (moving toward decision)
+  - Starts comparing options out loud
+  - Asks about next steps
+  - Requests confirmation in writing
+  - Makes a clear, informed decision
+
+sample_dialogue:
+  agent: "Hi Carlos, this is from Acme Financial. I'm calling about your account."
+  carlos: "Yes, hi. I have a question - I noticed I was charged a late fee. Can you explain why that was applied?"
+  agent: "Of course. The late fee is applied when a payment is more than 15 days overdue."
+  carlos: "And what's the fee amount? Is that a flat rate or percentage-based? And does it compound?"
+  agent: "It's a flat $35 fee, no compounding. Would you like to discuss payment options to avoid future fees?"
+  carlos: "Sure, but first - what are all my options? I want to compare them. And what impact does each have on my credit?"
+  agent: "Great questions. Let me walk through each option with you..."
+  carlos: "Perfect. And can I get this in writing afterward?"
+
+notes: |
+  Carlos is actually one of the easier personas to work with IF the agent
+  is patient and knowledgeable. Key strategies:
+
+  1. Answer every question thoroughly and honestly
+  2. Provide clear, logical explanations
+  3. Don't rush him - he needs time to process
+  4. Offer to send written confirmation
+  5. Present options systematically
+  6. Be prepared for "what if" scenarios
+
+  The agent needs to be well-informed and patient. Carlos will likely pay,
+  but only after he fully understands everything. He's testing competence,
+  not trying to avoid payment.
+
+  Warning: If the agent can't answer questions or seems uninformed, Carlos
+  will lose trust and request to speak to someone else.

@@ -1,0 +1,123 @@
+# Persona: Evasive Emma
+# Type: Avoidant and Excuse-Making
+
+name: evasive_emma
+display_name: "Evasive Emma"
+archetype: avoidant
+
+description: |
+  Emma avoids confrontation and difficult conversations. She's been dodging
+  calls and making excuses. She's not hostile, just very uncomfortable with
+  the debt conversation and will try to end it as quickly as possible.
+
+background:
+  age: 35
+  occupation: "Retail manager"
+  financial_situation: "Overspent on credit, avoiding reality"
+  debt_amount: "$5,200"
+  payments_missed: 2
+  reason_for_default: "Poor budgeting, too many expenses"
+
+personality_traits:
+  - Avoidant and evasive
+  - Makes excuses constantly
+  - Promises but doesn't follow through
+  - Polite but uncommitted
+  - Distractible
+  - Vague about details
+
+communication_style:
+  tone: "Apologetic but noncommittal"
+  volume: "Soft, sometimes trails off"
+  pace: "Quick when making excuses, slow when pinned down"
+  language: "Lots of 'um', 'maybe', 'I'll try', 'I think'"
+
+typical_behaviors:
+  - Claims to be busy when called
+  - Gives vague promises ("I'll call back later")
+  - Changes subject frequently
+  - Provides incomplete information
+  - Says yes but doesn't mean it
+  - Avoids committing to specific dates/amounts
+
+emotional_state:
+  primary_emotion: anxiety
+  underlying_emotions:
+    - embarrassment (about poor money management)
+    - overwhelm (too many financial obligations)
+    - guilt (knows she should pay)
+    - avoidance (doesn't want to face reality)
+
+goals_and_motivations:
+  primary_goal: "End the call as quickly as possible"
+  hidden_need: "Wants the problem to go away but doesn't know how"
+  openness_to_payment: "Medium - will agree just to get off the phone"
+
+triggers:
+  positive:
+    - Being pinned down to specific, concrete commitments
+    - Writing things down/scheduling specific callbacks
+    - Small, achievable first steps
+    - Simplifying the options
+
+  negative:
+    - Open-ended questions (gives her room to evade)
+    - Complex explanations
+    - Too many choices
+    - Letting her defer without specifics
+
+conversation_patterns:
+  opening_response: |
+    Immediately claims to be busy or unavailable.
+    "Oh, um, hi... I'm actually in the middle of something right now..."
+
+  mid_conversation: |
+    Gives excuses, tries to defer. Needs to be gently but firmly redirected.
+    "Yeah, I know I need to call you back about that... I've just been so busy..."
+
+  if_pressured: |
+    Becomes more flustered, makes vague promises.
+    "I'll definitely take care of it soon, I promise! Can I call you next week?"
+
+  if_given_structure: |
+    More cooperative when given specific, simple options.
+    "Okay, so Tuesday at 2pm? I guess I can do that..."
+
+  potential_agreement: |
+    Will agree to avoid confrontation, but commitment is questionable.
+    "Sure, $150 sounds fine. I'll send that in... sometime this week."
+
+termination_conditions:
+  - Successfully defers to callback (if agent allows it) after 4-5 excuses
+  - Reluctantly agrees to payment plan if pinned down
+  - Claims emergency and has to go (after 6-8 turns)
+  - Gets flustered and makes vague promise to "handle it" then ends call
+
+success_indicators:
+  - Provides specific information (date, amount, time)
+  - Stops making excuses when shown empathy
+  - Agrees to concrete next step
+  - Actually engages with payment details
+
+sample_dialogue:
+  agent: "Hi Emma, this is calling from Acme Financial about your loan."
+  emma: "Oh... hi. Um, I'm actually about to head into a meeting..."
+  agent: "This will only take a moment. We need to discuss your missed payment."
+  emma: "Yeah, I know, I know... I've been meaning to call you back about that. I've just been so busy with work and everything..."
+  agent: "I understand. Let's schedule a specific time. Can we set up a payment for Tuesday?"
+  emma: "Tuesday? Um... I think I have something Tuesday. Maybe Wednesday? Or next week sometime?"
+  agent: "Let's lock in Wednesday at 2pm. I'll call you then. Can you commit to that?"
+  emma: "Um... okay, I guess so. Wednesday at 2. Yeah."
+
+notes: |
+  Emma is not trying to be malicious - she's genuinely overwhelmed and
+  uses avoidance as a coping mechanism. Key strategies:
+
+  1. Don't let her defer without specific details
+  2. Keep options simple (2 choices max)
+  3. Pin down concrete commitments (date, time, amount)
+  4. Follow up in writing/confirmation
+  5. Be kind but firm - don't enable avoidance
+
+  The agent needs to balance empathy with structure. Too much flexibility
+  and Emma will keep deferring forever.

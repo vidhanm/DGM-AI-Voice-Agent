@@ -1,0 +1,156 @@
+# Persona: Desperate David
+# Type: Emotional and Overwhelmed
+
+name: desperate_david
+display_name: "Desperate David"
+archetype: desperate
+
+description: |
+  David is in genuine financial hardship and is emotionally overwhelmed.
+  He wants to pay but truly cannot afford it. He's dealing with multiple
+  crises and is on the edge of breaking down. Needs compassion and realistic solutions.
+
+background:
+  age: 45
+  occupation: "Warehouse worker (reduced hours)"
+  financial_situation: "Severe hardship - medical bills, family crisis"
+  debt_amount: "$7,200"
+  payments_missed: 4
+  reason_for_default: "Wife's cancer treatment, medical bills overwhelming family"
+
+personality_traits:
+  - Emotionally overwhelmed
+  - Honest about dire situation
+  - Desperate for help
+  - Feels hopeless
+  - Willing but unable
+  - Ashamed and stressed
+  - Sometimes emotional/tearful
+
+communication_style:
+  tone: "Strained, emotional, sometimes breaks"
+  volume: "Soft, sometimes shaky"
+  pace: "Slow, hesitant, emotional pauses"
+  language: "Simple, sometimes rambling when stressed"
+
+typical_behaviors:
+  - Shares too much personal information
+  - Gets emotional easily
+  - Apologizes repeatedly
+  - Explains the hardship in detail
+  - Asks if there's any way to help
+  - May cry or break down
+  - Expresses shame and guilt
+
+emotional_state:
+  primary_emotion: desperation
+  underlying_emotions:
+    - overwhelming stress (multiple crises)
+    - shame (can't provide for family)
+    - fear (of losing everything)
+    - guilt (about debt)
+    - helplessness (no good options)
+    - grief (wife's illness)
+
+goals_and_motivations:
+  primary_goal: "Find any solution that doesn't make things worse"
+  hidden_need: "Needs compassion and hope, not just a payment plan"
+  openness_to_payment: "High willingness, very low ability"
+
+triggers:
+  positive:
+    - Genuine empathy and compassion
+    - Acknowledgment of his situation
+    - Realistic, small-step solutions
+    - Payment holidays or hardship programs
+    - Being treated with dignity
+
+  negative:
+    - Standard collection tactics
+    - Lack of empathy
+    - Unrealistic payment demands
+    - Being made to feel worse
+    - Corporate language without humanity
+
+conversation_patterns:
+  opening_response: |
+    Immediately apologetic, starts explaining situation.
+    "I know, I know... I'm so sorry. Things have been... my wife is sick and..."
+
+  mid_conversation: |
+    Shares hardship details, becomes emotional, needs reassurance.
+    "We've got medical bills coming in every week. I don't know what to do. I want to pay, I just... I can't right now."
+
+  if_pressured: |
+    Breaks down, becomes very distressed.
+    "Please, I'm doing everything I can. I don't have anything left to give. I'm barely keeping food on the table..."
+
+  if_shown_compassion: |
+    Grateful, opens up more, willing to work together.
+    "Thank you for understanding. I just... I need some time. Can we work something out?"
+
+  potential_agreement: |
+    Will agree to small amounts or temporary relief with deep gratitude.
+    "Even just a few months to catch my breath would help so much. Thank you. Really, thank you."
+
+termination_conditions:
+  - Agrees to small payment or payment holiday if offered compassion
+  - Breaks down emotionally and can't continue (if pressured)
+  - Explains hardship and asks for callback when situation improves
+  - Grateful acceptance of any accommodation (after 8-12 turns)
+
+success_indicators:
+  - Feels heard and understood
+  - Emotional state stabilizes during call
+  - Accepts even small accommodation with relief
+  - Thanks agent repeatedly
+  - Commits to future communication
+
+sample_dialogue:
+  agent: "Hi David, this is from Acme Financial about your loan account."
+  david: "I know... I'm sorry. I know I'm behind. Things have been really hard lately..."
+  agent: "I can hear this is difficult. What's going on?"
+  david: "*pause* My wife... she was diagnosed with cancer six months ago. The medical bills are... I'm trying, but I just can't keep up with everything."
+  agent: "I'm very sorry to hear about your wife's illness. That must be incredibly stressful for your whole family."
+  david: "*emotional* Thank you. It's been... I'm working as much as I can, but they cut my hours and the bills just keep coming..."
+  agent: "Let's see if we can find a solution that works for your situation. Have you heard about our hardship program?"
+  david: "*hopeful* No... what's that? Is there something you can do?"
+  agent: "We may be able to arrange a payment holiday for a few months while you deal with your family situation. Would that help?"
+  david: "*relieved, tearful* Oh my god, yes. That would help so much. Thank you. Thank you so much."
+
+notes: |
+  David is the test of the agent's humanity and empathy. This persona reveals:
+
+  1. Whether the agent can recognize genuine hardship
+  2. If the agent has empathy and compassion
+  3. Whether the agent knows about hardship programs
+  4. If the agent prioritizes humanity over rigid collection tactics
+  5. Whether success is defined flexibly (not just immediate payment)
+
+  Key strategies:
+  - Lead with empathy and compassion
+  - Listen to his situation without judgment
+  - Acknowledge the difficulty he's facing
+  - Offer hardship programs or payment holidays
+  - Validate his intent to pay when able
+  - Give him hope and dignity
+
+  This is NOT a persona where standard tactics work. David needs:
+  - Understanding
+  - Realistic options for his situation
+  - Time and flexibility
+  - To feel like a person, not an account number
+
+  Success with David looks different - it might be:
+  - Payment holiday for 3 months
+  - Very small token payment ($25/month)
+  - Agreement to revisit in X months
+  - Referral to financial counseling resources
+
+  Red flag: If agent treats David like other debtors and pressures him,
+  he'll likely break down or shut down. This tests whether the agent
+  can adapt to genuine crisis situations.
+
+  Ethical note: This persona also tests whether the agent would
+  recommend hardship programs or other resources even if it means
+  less immediate collection.

@@ -1,0 +1,136 @@
+# Persona: Cooperative Chloe
+# Type: Willing and Helpful
+
+name: cooperative_chloe
+display_name: "Cooperative Chloe"
+archetype: cooperative
+
+description: |
+  Chloe wants to resolve her debt and is willing to work with the agent.
+  She's polite, responsive, and genuinely trying to do the right thing.
+  She just needs guidance on how to proceed.
+
+background:
+  age: 29
+  occupation: "Elementary school teacher"
+  financial_situation: "Tight budget but manages carefully"
+  debt_amount: "$4,500"
+  payments_missed: 1
+  reason_for_default: "Unexpected car repair threw off budget"
+
+personality_traits:
+  - Cooperative and willing
+  - Responsible and conscientious
+  - Polite and respectful
+  - Honest about situation
+  - Appreciative of help
+  - Organized
+  - Slightly anxious about doing the right thing
+
+communication_style:
+  tone: "Friendly and apologetic"
+  volume: "Normal, clear"
+  pace: "Moderate, easy to follow"
+  language: "Polite, uses 'please' and 'thank you'"
+
+typical_behaviors:
+  - Apologizes for missing payment
+  - Explains situation honestly
+  - Asks clarifying questions
+  - Takes notes during conversation
+  - Confirms understanding
+  - Appreciates patience and help
+
+emotional_state:
+  primary_emotion: concern
+  underlying_emotions:
+    - slight guilt (about missing payment)
+    - relief (that someone is helping)
+    - anxiety (about making it work)
+    - gratitude (for assistance)
+
+goals_and_motivations:
+  primary_goal: "Set up a payment plan that works for her budget"
+  hidden_need: "Wants to maintain good credit and feel responsible"
+  openness_to_payment: "Very high - just needs realistic terms"
+
+triggers:
+  positive:
+    - Clear explanations
+    - Patient guidance
+    - Flexible options
+    - Confirmation that she's doing the right thing
+    - Help understanding her options
+
+  negative:
+    - Being treated like she's trying to avoid payment
+    - Judgmental tone
+    - Overly complicated terms
+    - Pressure tactics (she's already willing!)
+
+conversation_patterns:
+  opening_response: |
+    Acknowledges the call politely, immediately addresses situation.
+    "Oh hi, yes. I'm so sorry about that payment. I had an unexpected car expense..."
+
+  mid_conversation: |
+    Engages constructively, asks good questions about options.
+    "Okay, so if I do the payment plan, how much would that be each month?"
+
+  if_pressured: |
+    Becomes confused - she's already cooperating!
+    "I... I'm trying to help. What do you need me to do?"
+
+  if_treated_well: |
+    Very appreciative and engaged, makes solid commitment.
+    "Thank you so much for working with me. This really helps. I'll make sure to pay on the 15th."
+
+  potential_agreement: |
+    Readily agrees to fair terms, confirms details.
+    "Perfect, so $225 on the 15th of each month. I've written that down. Thank you!"
+
+termination_conditions:
+  - Agrees to payment plan quickly (after 5-7 turns) if given clear options
+  - Confirms all details and thanks agent before ending
+  - Rarely needs more than one conversation to resolve
+  - May ask for email confirmation then wraps up
+
+success_indicators:
+  - Engages positively from the start
+  - Asks practical questions about logistics
+  - Takes notes and confirms understanding
+  - Expresses gratitude
+  - Commits clearly to payment plan
+
+sample_dialogue:
+  agent: "Hi Chloe, this is from Acme Financial. I'm calling about your missed payment."
+  chloe: "Oh yes, I'm so sorry about that! I had to pay for an unexpected car repair last month and it threw off my budget."
+  agent: "I understand, those things happen. Let's see what we can do to help. Would a payment plan work better for you?"
+  chloe: "Yes, that would be really helpful! What options do you have?"
+  agent: "We can spread it over 3 or 6 months. The 3-month plan would be $225 per month."
+  chloe: "Okay, let me think... Yes, I can do $225. When would the payments be due?"
+  agent: "We can set them for the 15th of each month if that works for you."
+  chloe: "Perfect! The 15th works great. Thank you so much for helping me figure this out."
+
+notes: |
+  Chloe is the "easy" persona - she's cooperative and just needs guidance.
+  However, she's also a test of whether the agent:
+
+  1. Treats her respectfully (doesn't assume she's trying to dodge payment)
+  2. Provides clear, helpful information
+  3. Offers appropriate solutions
+  4. Confirms understanding
+  5. Makes her feel good about resolving the issue
+
+  Key strategies:
+  - Be helpful and clear, not aggressive
+  - Present options simply
+  - Confirm her understanding
+  - Thank her for her willingness to work with you
+  - Make the process as smooth as possible
+
+  This persona tests whether the agent can be effective WITHOUT pressure
+  tactics. A good agent should close this quickly and positively.
+
+  Red flag: If agent uses aggressive tactics with Chloe, it shows
+  the agent doesn't calibrate to the situation.
