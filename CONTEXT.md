@@ -1,8 +1,8 @@
 # DGM Voice Agent - Development Context
 
 **Last Updated**: 2025-11-17
-**Current Phase**: Phase 3 - Automated Evaluation System ✅ COMPLETE!
-**Status**: Can now automatically score conversations! → Ready for Phase 4!
+**Current Phase**: Phase 4 - Evolutionary Loop System ✅ COMPLETE!
+**Status**: Self-evolution system fully implemented! → Ready for Phase 5!
 
 ---
 
@@ -88,9 +88,35 @@ Building a Darwin Gödel Machine-inspired self-evolving voice agent for debt col
   - Statistics generation
   - 270 lines of code
 
+### ✅ Phase 4: Evolutionary Loop System (COMPLETED!)
+- [x] **Implement PromptRewriter class** ✅
+  - Failure pattern analysis
+  - LLM-based variant generation
+  - Four mutation strategies (tone, structure, instruction, examples)
+  - Rationale generation for explainability
+  - 380 lines of code
+- [x] **Implement TerminationPolicy class** ✅
+  - Success threshold detection
+  - Plateau detection (no improvement for N generations)
+  - Max generations limit
+  - Time limit support
+  - Comprehensive statistics and reporting
+  - 230 lines of code
+- [x] **Implement EvolutionaryLoop orchestrator** ✅
+  - Full evolution cycle management
+  - Variant generation and testing
+  - Performance-based selection
+  - Evolution history tracking
+  - Lineage reporting
+  - 350 lines of code
+- [x] **Create comprehensive test suite** ✅
+  - Termination policy tests
+  - PromptRewriter structure tests
+  - EvolutionaryLoop integration tests
+  - Mini evolution test option
+
 ### ⏳ Upcoming Phases
-- [ ] Phase 4: Evolutionary loop
-- [ ] Phase 5: Voice integration
+- [ ] Phase 5: Voice integration (LiveKit)
 
 ---
 
@@ -410,6 +436,121 @@ Building the core infrastructure that everything else depends on:
 - Can now automatically score any conversation
 - Ready for Phase 4: Evolutionary Loop
 - Use evaluation scores to guide prompt evolution
+
+### Session 6 - Evolutionary Loop System
+**Date**: 2025-11-17
+
+**What we built:**
+- Complete Darwin-Gödel Machine inspired self-evolution system
+- Automatic prompt improvement through empirical testing
+- Full termination policy with multiple conditions
+- Comprehensive evolution tracking and reporting
+
+**Key accomplishments:**
+1. **PromptRewriter** (`evolution/prompt_rewriter.py` - 380 lines):
+   - Analyzes conversation failures to identify patterns
+   - Extracts goal completion, quality, and compliance issues
+   - Identifies persona-specific failure patterns
+   - Generates improved prompt variants using LLM meta-prompting
+   - Four mutation strategies:
+     * Tone adjustment (empathy, professionalism)
+     * Structure modification (reorganization, emphasis)
+     * Instruction clarification (concrete steps, specifics)
+     * Example addition (concrete scenarios, demonstrations)
+   - Provides detailed rationale for each change
+   - Change diff analysis for explainability
+
+2. **TerminationPolicy** (`evolution/termination_policy.py` - 230 lines):
+   - Multiple termination conditions:
+     * Success threshold (score > 85/100)
+     * Plateau detection (no improvement for 5 generations)
+     * Max generations (20 generation limit)
+     * Optional time limit
+   - Real-time progress tracking
+   - Improvement detection and celebration
+   - Comprehensive statistics generation
+   - Beautiful formatted reports
+   - Score trajectory visualization
+
+3. **EvolutionaryLoop** (`evolution/evolutionary_loop.py` - 350 lines):
+   - Main orchestrator tying all systems together
+   - Complete evolution cycle:
+     1. Test current agent with all personas
+     2. Evaluate performance across metrics
+     3. Analyze failure patterns
+     4. Generate N variant prompts
+     5. Test all variants
+     6. Select best performer
+     7. Check termination conditions
+     8. Repeat with best variant
+   - Greedy selection strategy (best performer wins)
+   - Evolution history tracking
+   - Lineage reporting (trace agent ancestry)
+   - Automatic archival of all versions
+   - JSON export of evolution history
+
+4. **Test Suite** (`test_phase4.py` - 310 lines):
+   - Comprehensive structural tests
+   - Termination policy validation
+   - PromptRewriter failure analysis testing
+   - EvolutionaryLoop integration tests
+   - Mini evolution test (reduced settings for quick validation)
+   - All tests passing ✅
+
+**Architecture integration:**
+- Seamlessly integrates with AgentArchive (Phase 1)
+- Uses Evaluator for scoring (Phase 3)
+- Leverages ConversationRunner for testing (Phase 2)
+- Works with both OpenAI and Anthropic LLMs
+- Fully configurable via settings.yaml
+
+**What works well:**
+- Darwin-Gödel Machine philosophy: observe → hypothesize → test → select
+- Automatic improvement without human intervention
+- Explainable evolution (rationale for every change)
+- Multiple termination conditions prevent runaway evolution
+- Complete audit trail for debugging and analysis
+- Modular design allows easy strategy customization
+- Evolution history saved for analysis
+
+**Code statistics:**
+- 960 lines of new code this session
+- 3 major classes (PromptRewriter, TerminationPolicy, EvolutionaryLoop)
+- 1 comprehensive test suite
+- Total project: ~6,400 lines of code
+
+**Configuration:**
+```yaml
+evolution:
+  max_generations: 20
+  success_threshold: 85.0
+  plateau_generations: 5
+  variants_per_generation: 3
+  selection_strategy: greedy
+```
+
+**How it works:**
+1. Start with baseline prompt (gen 0)
+2. Test with 5 personas × 3 conversations = 15 tests
+3. Average score determines baseline performance
+4. Analyze failures to find patterns
+5. Generate 3 variants using different strategies
+6. Test each variant (3 × 15 = 45 conversations)
+7. Select best variant as parent for next generation
+8. Repeat until score > 85, plateau detected, or max generations
+
+**Expected evolution trajectory:**
+- Gen 0 (baseline): ~55-65/100
+- Gen 5: ~70-75/100
+- Gen 10: ~78-82/100
+- Gen 15-20: 85+/100 (success!)
+
+**Next steps:**
+- Phase 4 COMPLETE! 🎉
+- Self-evolution system fully operational
+- Ready for Phase 5: LiveKit Voice Integration
+- Can now evolve agents to optimal performance automatically
+- System is ready for production use with voice interface
 
 ---
 
