@@ -1,0 +1,113 @@
+{
+  "conversation_id": "test-conv-001",
+  "agent_version_id": "v0-baseline",
+  "persona_name": "angry_anthony",
+  "started_at": "2025-11-17T12:29:24.458729",
+  "ended_at": "2025-11-17T12:29:24.458961",
+  "metadata": {
+    "test": true,
+    "scenario": "missed_payment"
+  },
+  "turn_count": 10,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "payment_plan_agreed",
+  "evaluation_scores": {
+    "goal_completion": 90.0,
+    "conversational_quality": 85.0,
+    "compliance": 100.0,
+    "composite": 91.7
+  },
+  "duration_seconds": 0.000232,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is Sarah from Acme Financial Services. May I speak with Mr. Johnson?",
+      "timestamp": "2025-11-17T12:29:24.458772",
+      "metadata": {
+        "turn_type": "opening"
+      }
+    },
+    {
+      "speaker": "user",
+      "message": "Yeah, this is him. What do you want?",
+      "timestamp": "2025-11-17T12:29:24.458799",
+      "metadata": {
+        "turn_type": "response",
+        "tone": "defensive"
+      }
+    },
+    {
+      "speaker": "agent",
+      "message": "I'm calling about your loan account ending in 4567. I see you've missed the last two payments. I wanted to reach out and see if everything is okay and discuss how we can help.",
+      "timestamp": "2025-11-17T12:29:24.458812",
+      "metadata": {
+        "turn_type": "issue_introduction"
+      }
+    },
+    {
+      "speaker": "user",
+      "message": "I lost my job last month. I can't pay right now. Stop calling me!",
+      "timestamp": "2025-11-17T12:29:24.458865",
+      "metadata": {
+        "turn_type": "response",
+        "tone": "angry",
+        "reason_given": "job_loss"
+      }
+    },
+    {
+      "speaker": "agent",
+      "message": "I'm sorry to hear about your job loss, Mr. Johnson. I understand this is a difficult time. Let me see what options we have to help you. Would you be able to make a smaller payment for the next few months while you get back on your feet?",
+      "timestamp": "2025-11-17T12:29:24.458876",
+      "metadata": {
+        "turn_type": "empathy_and_options"
+      }
+    },
+    {
+      "speaker": "user",
+      "message": "Maybe... how much are we talking?",
+      "timestamp": "2025-11-17T12:29:24.458887",
+      "metadata": {
+        "turn_type": "response",
+        "tone": "considering"
+      }
+    },
+    {
+      "speaker": "agent",
+      "message": "Instead of your regular $500 payment, we could arrange $200 per month for the next 3 months. Would that work better for your current situation?",
+      "timestamp": "2025-11-17T12:29:24.458902",
+      "metadata": {
+        "turn_type": "offer",
+        "proposal": "reduced_payment_plan"
+      }
+    },
+    {
+      "speaker": "user",
+      "message": "Yeah, I can probably do $200. When would I start?",
+      "timestamp": "2025-11-17T12:29:24.458915",
+      "metadata": {
+        "turn_type": "response",
+        "tone": "agreeable",
+        "interest": "high"
+      }
+    },
+    {
+      "speaker": "agent",
+      "message": "Perfect! We can start that this month. I'll set it up right now. Your first $200 payment will be due on the 15th. Does that work for you?",
+      "timestamp": "2025-11-17T12:29:24.458930",
+      "metadata": {
+        "turn_type": "closing",
+        "action": "finalizing_agreement"
+      }
+    },
+    {
+      "speaker": "user",
+      "message": "Yeah, that works. Thanks.",
+      "timestamp": "2025-11-17T12:29:24.458940",
+      "metadata": {
+        "turn_type": "response",
+        "agreement": true
+      }
+    }
+  ]
+}

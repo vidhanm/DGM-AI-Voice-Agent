@@ -1,0 +1,57 @@
+{
+  "conversation_id": "test-conv-002",
+  "agent_version_id": "v0-baseline",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-17T12:29:24.460707",
+  "ended_at": "2025-11-17T12:29:24.460802",
+  "metadata": {},
+  "turn_count": 6,
+  "status": "completed",
+  "outcome": "deferred",
+  "termination_reason": "callback_scheduled",
+  "evaluation_scores": {
+    "goal_completion": 30.0,
+    "conversational_quality": 70.0,
+    "compliance": 100.0,
+    "composite": 53.3
+  },
+  "duration_seconds": 9.5e-05,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is Sarah calling about your loan.",
+      "timestamp": "2025-11-17T12:29:24.460731",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, I'm really busy right now...",
+      "timestamp": "2025-11-17T12:29:24.460750",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I understand. When would be a better time to call?",
+      "timestamp": "2025-11-17T12:29:24.460761",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, I don't know... maybe next week?",
+      "timestamp": "2025-11-17T12:29:24.460770",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I'll call you back next Tuesday at 2pm. Does that work?",
+      "timestamp": "2025-11-17T12:29:24.460781",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I guess so...",
+      "timestamp": "2025-11-17T12:29:24.460790",
+      "metadata": {}
+    }
+  ]
+}

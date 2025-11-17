@@ -1,0 +1,39 @@
+{
+  "conversation_id": "test-integration-001",
+  "agent_version_id": "v0-test123",
+  "persona_name": "cooperative_chloe",
+  "started_at": "2025-11-17T12:29:24.938386",
+  "ended_at": "2025-11-17T12:29:24.938515",
+  "metadata": {},
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "agreement_reached",
+  "evaluation_scores": {
+    "goal_completion": 95.0,
+    "conversational_quality": 90.0,
+    "compliance": 100.0,
+    "composite": 95.0
+  },
+  "duration_seconds": 0.000129,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "How can I help you today?",
+      "timestamp": "2025-11-17T12:29:24.938471",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I want to set up a payment plan.",
+      "timestamp": "2025-11-17T12:29:24.938493",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Great! Let's work on that together.",
+      "timestamp": "2025-11-17T12:29:24.938501",
+      "metadata": {}
+    }
+  ]
+}
