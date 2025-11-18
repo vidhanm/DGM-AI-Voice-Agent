@@ -11,6 +11,12 @@ from typing import Dict, Any, List, Optional
 from openai import OpenAI
 from anthropic import Anthropic
 
+try:
+    from cerebras.cloud.sdk import Cerebras
+    CEREBRAS_AVAILABLE = True
+except ImportError:
+    CEREBRAS_AVAILABLE = False
+
 from core import Config
 
 
@@ -33,8 +39,13 @@ class LLMJudge:
 
         # LLM configuration (use simpler/cheaper model for evaluation)
         self.provider = self.config.get('llm.provider', 'openai')
-        # Use faster model for judging
-        self.model = 'gpt-3.5-turbo' if self.provider == 'openai' else 'claude-3-haiku-20240307'
+        # Use faster model for judging (or configured model for Cerebras)
+        if self.provider == 'openai':
+            self.model = 'gpt-3.5-turbo'
+        elif self.provider == 'cerebras':
+            self.model = self.config.get('llm.model', 'llama-3.3-70b')  # Use configured model
+        else:
+            self.model = 'claude-3-haiku-20240307'
         self.temperature = 0.3  # Lower temperature for consistent evaluation
         self.max_tokens = 1500
 
@@ -54,6 +65,16 @@ class LLMJudge:
             if not api_key:
                 raise ValueError("ANTHROPIC_API_KEY not set")
             self.client = Anthropic(api_key=api_key)
+
+        elif self.provider == 'cerebras':
+            if not CEREBRAS_AVAILABLE:
+                raise ValueError(
+                    "Cerebras SDK not installed. Run: pip install cerebras-cloud-sdk"
+                )
+            api_key = os.getenv('CEREBRAS_API_KEY')
+            if not api_key:
+                raise ValueError("CEREBRAS_API_KEY environment variable not set")
+            self.client = Cerebras(api_key=api_key)
 
     def evaluate_conversation(
         self,
@@ -161,6 +182,8 @@ Respond ONLY with valid JSON, no other text."""
                 return self._get_openai_evaluation(prompt)
             elif self.provider == 'anthropic':
                 return self._get_anthropic_evaluation(prompt)
+            elif self.provider == 'cerebras':
+                return self._get_cerebras_evaluation(prompt)
         except Exception as e:
             print(f"❌ LLM Judge error: {e}")
             return self._get_fallback_evaluation()
@@ -212,6 +235,36 @@ Respond ONLY with valid JSON, no other text."""
         try:
             return json.loads(content)
         except json.JSONDecodeError:
+            import re
+            json_match = re.search(r'\{.*\}', content, re.DOTALL)
+            if json_match:
+                return json.loads(json_match.group())
+            else:
+                return self._get_fallback_evaluation()
+
+    def _get_cerebras_evaluation(self, prompt: str) -> Dict[str, Any]:
+        """Get evaluation from Cerebras (OpenAI-compatible API)."""
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=[
+                {
+                    'role': 'system',
+                    'content': 'You are an expert conversation evaluator. Respond only with valid JSON.'
+                },
+                {'role': 'user', 'content': prompt}
+            ],
+            temperature=self.temperature,
+            max_completion_tokens=self.max_tokens,
+            stream=False
+        )
+
+        content = response.choices[0].message.content
+
+        # Parse JSON response
+        try:
+            return json.loads(content)
+        except json.JSONDecodeError:
+            # Try to extract JSON from response
             import re
             json_match = re.search(r'\{.*\}', content, re.DOTALL)
             if json_match:

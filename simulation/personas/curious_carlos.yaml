@@ -65,7 +65,7 @@ triggers:
   negative:
     - Vague or unclear answers
     - Being rushed to decide
-    - "Just trust me" without explanation
+    - '"Just trust me" without explanation'
     - Incomplete information
     - Feeling talked down to
 

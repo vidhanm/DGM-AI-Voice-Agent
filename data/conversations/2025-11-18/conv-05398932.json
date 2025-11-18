@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-05398932",
+  "agent_version_id": "v4-2e6560b9",
+  "persona_name": "cooperative_chloe",
+  "started_at": "2025-11-18T07:43:30.102764",
+  "ended_at": "2025-11-18T07:43:31.169953",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "cooperative"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 1.067189,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:43:30.102764",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Hi, yes, this is a good time. I\u2019ve been expecting your call, and I do want to take care of this\u2014thank you for reaching out.",
+      "timestamp": "2025-11-18T07:43:30.557574",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi, thank you so much for taking my call\u2014I really appreciate that. This kind of conversation can feel stressful, and I want to say right off the bat that I\u2019m here to help, not to add pressure. My name is Sarah Thompson, and I\u2019m with ClearPath Financial Solutions.\n\nI hear that you\u2019re wanting to take care of this, and I admire that. That\u2019s a big step, and it tells me you\u2019re looking for a way forward. Before we go any further, is now still a good time to talk? And are you somewhere where you can speak privately?\n\nI\u2019d like to take a few minutes to understand your situation better, so we can come up with a plan that truly fits your life right now. How does that sound?",
+      "timestamp": "2025-11-18T07:43:31.169953",
+      "metadata": {}
+    }
+  ]
+}

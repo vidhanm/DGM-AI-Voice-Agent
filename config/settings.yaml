@@ -3,11 +3,16 @@
 
 # LLM Configuration
 llm:
-  provider: openai  # openai or anthropic
-  model: gpt-4-turbo-preview  # or claude-3-opus-20240229
+  provider: cerebras  # openai, anthropic, or cerebras (FREE!)
+  model: llama-3.3-70b  # cerebras: llama-3.3-70b, llama3.1-70b, qwen-3-235b-a22b-instruct-2507
   temperature: 0.7
   max_tokens: 2000
   timeout: 30
+
+  # Alternative models for reference:
+  # OpenAI: gpt-4-turbo-preview, gpt-3.5-turbo
+  # Anthropic: claude-3-opus-20240229, claude-3-sonnet-20240229
+  # Cerebras: llama-3.3-70b (recommended), llama3.1-70b, qwen-3-235b-a22b-instruct-2507
 
 # Evolution Configuration
 evolution:
@@ -66,13 +71,77 @@ database:
   backup_enabled: true
   backup_frequency: 10  # Backup every N generations
 
-# Voice Configuration (for Phase 5)
+# Voice Configuration (Phase 5 - LiveKit Integration)
 voice:
-  enabled: false  # Enable when ready
-  sample_rate: 16000
-  channels: 1
-  tts_provider: elevenlabs  # or google, azure
-  stt_provider: deepgram    # or google, whisper
+  enabled: true  # Phase 5 ready
+  mode: cloud    # cloud or local
+
+  # LiveKit configuration
+  livekit:
+    url: ${LIVEKIT_URL}           # From .env
+    api_key: ${LIVEKIT_API_KEY}
+    api_secret: ${LIVEKIT_API_SECRET}
+    room_prefix: dgm-voice-       # Room name prefix
+
+  # Speech-to-Text (STT) configuration
+  stt:
+    provider: deepgram            # deepgram, whisper, assemblyai
+    model: nova-3                 # Deepgram Nova-3 (fastest, most accurate)
+    language: en-US
+    interim_results: true         # Stream partial results for lower latency
+    smart_format: true            # Auto-format numbers, dates, etc.
+
+  # Text-to-Speech (TTS) configuration
+  tts:
+    provider: cartesia            # cartesia, elevenlabs, openai
+    model: sonic                  # Cartesia Sonic (95-199ms TTFA)
+    voice_id: default             # Voice profile ID
+    speed: 1.0                    # Speech rate (0.5-2.0)
+    emotion: neutral              # Cartesia supports emotion modulation
+    sample_rate: 16000            # Audio sample rate in Hz
+
+  # Voice Activity Detection (VAD)
+  vad:
+    provider: silero              # silero (industry standard)
+    sensitivity: 0.5              # 0-1, higher = more sensitive to speech
+    min_speech_duration: 0.1      # Minimum speech duration in seconds
+    min_silence_duration: 0.3     # Minimum silence to end turn
+
+  # Turn detection and conversation flow
+  turn_detection:
+    mode: semantic                # semantic, vad, stt, manual
+    min_interruption_duration: 0.5  # Seconds before considering as interruption
+    min_interruption_words: 0     # Min words to count as interrupt (0 = any speech)
+    min_endpointing_delay: 0.5    # Wait time after potential turn end
+    max_endpointing_delay: 3.0    # Max wait before forcing turn end
+    allow_interruptions: true     # Allow user to interrupt agent
+
+  # Voice-specific prompt configuration
+  prompt_template: voice_prompt.yaml  # Use voice-optimized prompt
+  max_response_length: 200      # Max characters per response (voice fatigue)
+  use_ssml: true                # Enable SSML for prosody control
+
+  # Audio processing
+  audio:
+    sample_rate: 16000            # 16kHz (phone quality, lower latency)
+    channels: 1                   # Mono
+    format: pcm_s16le             # PCM signed 16-bit little-endian
+    noise_reduction: false        # Optional noise reduction (adds latency)
+    auto_gain_control: true       # Normalize audio levels
+
+  # Conversation management
+  conversation:
+    greeting_message: "Hello, this is an automated payment assistance call. May I have your name?"
+    max_duration_seconds: 600     # 10 minutes max per conversation
+    silence_timeout_seconds: 30   # End call after 30s of silence
+    max_turns: 30                 # Max turn exchanges
+    auto_log: true                # Automatically log all voice conversations
+
+  # Performance and debugging
+  debug:
+    log_audio: false              # Save audio files (for debugging)
+    log_latency: true             # Track pipeline latency metrics
+    verbose: false                # Verbose logging for troubleshooting
 
 # Personas Configuration
 personas:

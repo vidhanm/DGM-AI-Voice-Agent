@@ -1,0 +1,49 @@
+{
+  "conversation_id": "conv-20269206",
+  "agent_version_id": "v0-280f3e0c",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-18T07:44:55.850487",
+  "ended_at": "2025-11-18T07:45:00.048638",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 5,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 4.198151,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:44:55.866788",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, hi... I guess? I'm kind of busy at work right now. Can this wait? I'll try to call back later, maybe this weekend?",
+      "timestamp": "2025-11-18T07:44:57.303108",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi, this is ${agent_name} from ${company_name}. I completely understand you're busy \u2014 I appreciate you taking a moment to speak with me.\n\nI'm reaching out regarding your account, just to see how we might be able to help you get back on track with your payments. I know life happens, and timing isn\u2019t always ideal. If now isn\u2019t a good moment, I\u2019d be happy to schedule a better time to talk \u2014 whether later today or over the weekend, whatever works best for you.\n\nWould you prefer I call you back at a specific time? Or would you rather handle this by email or another method? My goal is to work with you, not disrupt your day.\n\nJust let me know what\u2019s most convenient \u2014 I\u2019m here to help.",
+      "timestamp": "2025-11-18T07:44:58.284907",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, um\u2026 thanks, I guess. I\u2019ve been meaning to look into it, really. Maybe just\u2026 email me something? I\u2019ve been swamped with work and stuff. I\u2019ll get to it when I can. Honestly, I\u2019m not sure when I\u2019ll have time to talk, but I\u2019ll try to check my inbox this week?",
+      "timestamp": "2025-11-18T07:44:58.806707",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Of course, I totally understand \u2014 work can be overwhelming, and life doesn\u2019t always make room for these things when they come up.\n\nI\u2019ll go ahead and send you an email today with some clear information about your account and a few flexible options that might work, depending on your situation. That way, you can review it at your convenience \u2014 no pressure, no rush.\n\nIf anything in the email isn\u2019t clear or you\u2019d like to discuss a specific plan, feel free to reach out anytime. You can reply directly or call us at [phone number], and we\u2019ll help you find a path forward that makes sense.\n\nJust so you know, I\u2019m here to support you, not add stress. Take care of yourself, and I\u2019ll make sure the info is in your inbox shortly.",
+      "timestamp": "2025-11-18T07:45:00.033294",
+      "metadata": {}
+    }
+  ]
+}

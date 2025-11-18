@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-6125890c",
+  "agent_version_id": "v2-9af9eb0e",
+  "persona_name": "cooperative_chloe",
+  "started_at": "2025-11-18T07:37:03.641902",
+  "ended_at": "2025-11-18T07:37:04.761816",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "cooperative"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 1.119914,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:37:03.657550",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Hi, yes, this is Chloe. I've been expecting your call, and I do want to take care of this. Is now a good time? I'm a bit pressed for time since I have school shortly, but I can talk for a few minutes.",
+      "timestamp": "2025-11-18T07:37:04.117072",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi Chloe, this is Sarah Thompson from ClearPath Financial Solutions. Thanks so much for picking up and for being proactive\u2014I really appreciate that. And yes, now works perfectly. I\u2019ll keep it brief and focused so it doesn\u2019t interfere with your school schedule.\n\nJust to confirm, this call is regarding your account with us, and I\u2019m here to help you explore a manageable way to resolve the balance. Please note this communication is from a debt collector, and everything we discuss is meant to support you in finding a solution that fits your situation.\n\nYou mentioned you\u2019d like to take care of this\u2014that\u2019s a great step. To help me guide you best, can you share a little about your current financial situation? For example, what do you feel would be a realistic amount you could manage toward this each month, given your commitments with school?\n\nI\u2019m all ears, and we\u2019ll go at a pace that works for you.",
+      "timestamp": "2025-11-18T07:37:04.761816",
+      "metadata": {}
+    }
+  ]
+}

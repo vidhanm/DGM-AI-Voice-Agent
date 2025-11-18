@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolve - Darwin-Gödel Voice Agent</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/static/index.html" class="nav-brand">🧬 Darwin-Gödel Agent</a>
+            <ul class="nav-links">
+                <li><a href="/static/index.html" class="nav-link">Dashboard</a></li>
+                <li><a href="/static/simulate.html" class="nav-link">Simulate</a></li>
+                <li><a href="/static/evolve.html" class="nav-link">Evolve</a></li>
+                <li><a href="/static/evaluate.html" class="nav-link">Evaluate</a></li>
+                <li><a href="/static/results.html" class="nav-link">Results</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Alerts -->
+        <div id="alerts"></div>
+
+        <!-- Header -->
+        <div class="card mb-lg">
+            <div class="card-header">
+                <h1 class="card-title">🧬 Run Evolution</h1>
+                <p class="card-subtitle">Automatically evolve better agents</p>
+            </div>
+            <p>
+                Start the evolutionary process to automatically improve your agent over
+                multiple generations. The system will create variations, test them, evaluate
+                performance, and select the best for the next generation.
+            </p>
+        </div>
+
+        <!-- Configuration Form -->
+        <div id="config-form" class="card mb-lg">
+            <h3 class="mb-md">Evolution Configuration</h3>
+
+            <div class="form-group">
+                <label class="form-label">Maximum Generations</label>
+                <input type="number" id="max-generations" class="form-input" value="10" min="1" max="50">
+                <div class="mt-sm" style="font-size: 0.875rem; color: var(--text-secondary);">
+                    Evolution will stop after this many generations or when threshold is reached
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Success Threshold</label>
+                <input type="number" id="success-threshold" class="form-input" value="85" min="0" max="100" step="0.1">
+                <div class="mt-sm" style="font-size: 0.875rem; color: var(--text-secondary);">
+                    Evolution stops when an agent reaches this score (out of 100)
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Variants per Generation</label>
+                <input type="number" id="variants-per-gen" class="form-input" value="3" min="1" max="10">
+                <div class="mt-sm" style="font-size: 0.875rem; color: var(--text-secondary);">
+                    Number of variations to create and test each generation
+                </div>
+            </div>
+
+            <button id="start-btn" class="btn btn-success" onclick="startEvolution()">
+                Start Evolution
+            </button>
+        </div>
+
+        <!-- Progress Container -->
+        <div id="progress-container" class="hidden">
+            <!-- Current Status -->
+            <div class="card mb-lg">
+                <h3 class="mb-md">Evolution in Progress...</h3>
+                <div class="progress mb-md">
+                    <div id="progress-bar" class="progress-bar" style="width: 0%;">0%</div>
+                </div>
+                <div id="status-text" style="color: var(--text-secondary); text-align: center;">
+                    Initializing...
+                </div>
+            </div>
+
+            <!-- Live Updates -->
+            <div class="card mb-lg">
+                <h3 class="mb-md">Live Updates</h3>
+                <div id="live-updates" style="max-height: 400px; overflow-y: auto; font-family: monospace; font-size: 0.875rem;">
+                    <!-- Updates will be added here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Container -->
+        <div id="results-container" class="hidden">
+            <div class="card">
+                <h3 class="mb-md">Evolution Complete! 🎉</h3>
+
+                <div class="grid grid-4 mb-lg">
+                    <div class="stat-card">
+                        <div class="stat-value" id="result-generations">0</div>
+                        <div class="stat-label">Generations Run</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" style="color: var(--success);" id="result-best-score">0</div>
+                        <div class="stat-label">Best Score</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="result-baseline-score">0</div>
+                        <div class="stat-label">Baseline Score</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" style="color: var(--primary);" id="result-improvement">0</div>
+                        <div class="stat-label">Improvement</div>
+                    </div>
+                </div>
+
+                <div class="alert alert-success">
+                    <strong>Best Agent ID:</strong> <span id="result-agent-id"></span>
+                    <br>
+                    <strong>Termination Reason:</strong> <span id="result-reason"></span>
+                </div>
+
+                <button class="btn btn-primary" onclick="location.reload()">
+                    Run Another Evolution
+                </button>
+                <a href="/static/evaluate.html" class="btn btn-secondary">
+                    Evaluate Best Agent
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/evolve.js"></script>
+</body>
+</html>

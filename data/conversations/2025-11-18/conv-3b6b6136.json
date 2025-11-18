@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-3b6b6136",
+  "agent_version_id": "v0-73dacfb9",
+  "persona_name": "curious_carlos",
+  "started_at": "2025-11-18T07:26:49.152143",
+  "ended_at": "2025-11-18T07:26:50.213473",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "analytical"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 1.06133,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:26:49.158969",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Uh, hi\u2014this is Carlos. I mean, it\u2019s not a bad time, but can you first clarify which company you\u2019re with and what account you\u2019re referring to? I have a few financial things floating around, so I\u2019d like to make sure we\u2019re on the same page.",
+      "timestamp": "2025-11-18T07:26:49.623276",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi Mr. Carlos, thank you for picking up. My name is ${agent_name}, and I'm with ${company_name}, a trusted partner in helping individuals resolve outstanding financial obligations. I'm reaching out regarding an account linked to your name. For privacy and accuracy, could you please confirm your date of birth or the last four digits of your Social Security number so I can verify we're discussing the correct account? I'm here to help clarify any details and work with you toward a manageable resolution.",
+      "timestamp": "2025-11-18T07:26:50.213473",
+      "metadata": {}
+    }
+  ]
+}

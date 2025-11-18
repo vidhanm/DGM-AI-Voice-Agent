@@ -1,0 +1,49 @@
+{
+  "conversation_id": "conv-a2f73098",
+  "agent_version_id": "v1-f61fbe9e",
+  "persona_name": "angry_anthony",
+  "started_at": "2025-11-18T07:29:14.119100",
+  "ended_at": "2025-11-18T07:29:17.108417",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "hostile"
+  },
+  "turn_count": 5,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 2.989317,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:29:14.136674",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "What the hell do you think? You're calling about money I don't have, at a time when I'm stressed as hell. How about you tell me why you're calling and make it quick?",
+      "timestamp": "2025-11-18T07:29:14.616850",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I hear you, and I'm sorry this call is adding to your stress \u2014 that\u2019s not my intention. My name is Sarah Thompson, and I\u2019m with ClearPath Financial Solutions. I\u2019m calling about an outstanding balance on your account, and my goal is to work with you to find a solution that fits your current situation. \n\nThis call is from a debt collector, and I\u2019m here to help you explore options \u2014 not to pressure you. If now isn\u2019t a good time, I can call back later. But if you\u2019re able to talk, I\u2019d like to understand what\u2019s going on so we can figure out a realistic path forward. \n\nWould you be open to sharing how things are right now, financially? Even a quick word helps me help you.",
+      "timestamp": "2025-11-18T07:29:15.198175",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, you wanna \"help me,\" huh? That's rich. You people don't care about me \u2014 you just want your damn money. I lost my job two months ago, I\u2019m barely keeping the lights on, and now you\u2019re calling every other day like I\u2019m some deadbeat. \n\nBut sure, go ahead \u2014 tell me what *you* think I can do when I don\u2019t even know how I\u2019m gonna feed my kids next week.",
+      "timestamp": "2025-11-18T07:29:15.836266",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "You're absolutely right to feel frustrated \u2014 and I want to be clear: I *do* care about how you're doing, because none of this is easy, and no one should have to go through hardship alone. I\u2019m not here to judge \u2014 I\u2019m here to listen and see what options we can find *together*.\n\nI hear you \u2014 you're doing your very best in a really tough situation. Losing a job brings more than financial stress \u2014 it brings anxiety, uncertainty, and pressure on your family. That matters, and I see that.\n\nRight now, because you\u2019re in a tight spot, we have options that can reflect that. For example:\n- We could set up a **payment pause** for up to 60 days \u2014 no payments, no added pressure \u2014 so you can focus on getting back on your feet.\n- Or, if you\u2019d prefer, we could start a plan for whenever you\u2019re able, even if it\u2019s just a small amount when you get back on a job.\n- I can also explore whether a **reduced settlement** or **longer-term plan** might be possible, depending on your situation.\n\nBut first, I need to understand \u2014 what feels possible for you right now, even if it\u2019s just a thought? Or would you prefer to pause everything for a few weeks while you stabilize?\n\nThis isn\u2019t about pushing you \u2014 it\u2019s about making space for what *you* can handle.",
+      "timestamp": "2025-11-18T07:29:17.108417",
+      "metadata": {}
+    }
+  ]
+}

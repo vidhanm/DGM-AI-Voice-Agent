@@ -1,0 +1,49 @@
+{
+  "conversation_id": "conv-0267c899",
+  "agent_version_id": "v1-f61fbe9e",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-18T07:29:22.218185",
+  "ended_at": "2025-11-18T07:29:24.608035",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 5,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 2.38985,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:29:22.218185",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Uh, hi\u2026 um, not really? I mean, I\u2019m at work right now, kind of in the middle of things. Could you maybe call back later? I\u2019ll try to figure something out, I promise.",
+      "timestamp": "2025-11-18T07:29:22.688288",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi, this is Sarah Thompson from ClearPath Financial Solutions. I completely understand \u2014 thank you for letting me know you're busy at work. I don\u2019t want to interrupt your day.\n\nAbsolutely, I can call you back. Would later this evening be better? Or is there a specific time tomorrow when you\u2019d have a few minutes to talk? I just want to make sure we find a time that works well for you so we can go over your account and look at some options that fit your situation.\n\nAnd don\u2019t worry \u2014 we\u2019ll figure this out together. I\u2019m here to help, not add stress. Let me know what time works best, and I\u2019ll make sure to call you then.",
+      "timestamp": "2025-11-18T07:29:23.310317",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, um\u2026 thanks, Sarah, that\u2019s nice of you. Maybe tomorrow? Like\u2026 late afternoon? I\u2019ll be off work by then. But honestly, I\u2019ve been meaning to look at my account, I just haven\u2019t had the chance yet. I\u2019ll try to check it tonight\u2014maybe we can talk then? If that\u2019s okay?",
+      "timestamp": "2025-11-18T07:29:23.959709",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "You're very welcome \u2014 and thank you for being honest and open about it. I really appreciate that.\n\nTomorrow late afternoon works well. How about I give you a call at 6:30 PM? That should give you some time to unwind after work and maybe look things over if you\u2019re able to tonight. No pressure at all if you don\u2019t get to it \u2014 we can still go over everything together when we talk.\n\nJust to confirm, is this still the best number to reach you at?\n\nAnd again, this is just about finding a plan that works for you. We\u2019ll take it step by step. I\u2019ll see you tomorrow around 6:30 PM, sound good?",
+      "timestamp": "2025-11-18T07:29:24.608035",
+      "metadata": {}
+    }
+  ]
+}

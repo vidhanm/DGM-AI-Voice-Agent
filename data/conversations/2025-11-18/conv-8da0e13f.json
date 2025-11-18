@@ -1,0 +1,259 @@
+{
+  "conversation_id": "conv-8da0e13f",
+  "agent_version_id": "v1-25e13f89",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-18T07:47:17.777452",
+  "ended_at": "2025-11-18T07:48:46.007188",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 40,
+  "status": "completed",
+  "outcome": "incomplete",
+  "termination_reason": "max_turns_reached",
+  "evaluation_scores": {},
+  "duration_seconds": 88.229736,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:47:17.777452",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:47:19.921668",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:47:22.246770",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:47:24.376908",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:47:26.738598",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:47:28.991703",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:47:31.292352",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:47:33.590663",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:47:35.680695",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:47:37.956314",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:47:40.309407",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:47:42.500486",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:47:44.755741",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:47:47.032546",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:47:49.323723",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:47:51.574213",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:47:53.620322",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:47:55.840794",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:47:58.025606",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:48:00.364120",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:48:02.539644",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:48:04.790629",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:48:06.956467",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:48:09.317123",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:48:11.707409",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:48:13.989183",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:48:16.219710",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:48:18.457603",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:48:20.864862",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:48:23.142184",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:48:25.581230",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:48:27.803129",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:48:30.096041",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:48:32.506507",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:48:34.765870",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:48:37.006858",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:48:39.115213",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:48:41.517147",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:48:43.739734",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, can I call you back later?",
+      "timestamp": "2025-11-18T07:48:46.007188",
+      "metadata": {}
+    }
+  ]
+}

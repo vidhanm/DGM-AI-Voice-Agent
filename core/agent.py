@@ -11,6 +11,12 @@ from datetime import datetime
 from openai import OpenAI
 from anthropic import Anthropic
 
+try:
+    from cerebras.cloud.sdk import Cerebras
+    CEREBRAS_AVAILABLE = True
+except ImportError:
+    CEREBRAS_AVAILABLE = False
+
 from core import Config, PromptManager
 
 
@@ -18,7 +24,7 @@ class BaseAgent:
     """
     The core conversational agent for debt collection.
 
-    Uses an LLM (OpenAI or Anthropic) to generate responses based on
+    Uses an LLM (OpenAI, Anthropic, or Cerebras) to generate responses based on
     a system prompt, maintaining conversation context and tracking goals.
     """
 
@@ -85,6 +91,16 @@ class BaseAgent:
                 raise ValueError("ANTHROPIC_API_KEY environment variable not set")
             self.client = Anthropic(api_key=api_key)
 
+        elif self.provider == 'cerebras':
+            if not CEREBRAS_AVAILABLE:
+                raise ValueError(
+                    "Cerebras SDK not installed. Run: pip install cerebras-cloud-sdk"
+                )
+            api_key = os.getenv('CEREBRAS_API_KEY')
+            if not api_key:
+                raise ValueError("CEREBRAS_API_KEY environment variable not set")
+            self.client = Cerebras(api_key=api_key)
+
         else:
             raise ValueError(f"Unsupported LLM provider: {self.provider}")
 
@@ -121,6 +137,8 @@ class BaseAgent:
             response = self._generate_openai_response()
         elif self.provider == 'anthropic':
             response = self._generate_anthropic_response()
+        elif self.provider == 'cerebras':
+            response = self._generate_cerebras_response()
         else:
             raise ValueError(f"Unsupported provider: {self.provider}")
 
@@ -173,6 +191,28 @@ class BaseAgent:
 
         except Exception as e:
             print(f"❌ Anthropic API error: {e}")
+            return f"I apologize, I'm having technical difficulties. Could you please repeat that?"
+
+    def _generate_cerebras_response(self) -> str:
+        """Generate response using Cerebras API (OpenAI-compatible)."""
+        # Cerebras uses OpenAI-compatible API format
+        messages = [
+            {'role': 'system', 'content': self.system_prompt}
+        ] + self.conversation_history
+
+        try:
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=messages,
+                temperature=self.temperature,
+                max_completion_tokens=self.max_tokens,
+                stream=False  # Non-streaming for now
+            )
+
+            return response.choices[0].message.content
+
+        except Exception as e:
+            print(f"❌ Cerebras API error: {e}")
             return f"I apologize, I'm having technical difficulties. Could you please repeat that?"
 
     def _check_goal_achievement(self, agent_response: str, user_message: str) -> bool:

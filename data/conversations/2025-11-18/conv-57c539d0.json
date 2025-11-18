@@ -1,0 +1,49 @@
+{
+  "conversation_id": "conv-57c539d0",
+  "agent_version_id": "v1-61d268a1",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-18T07:27:21.959302",
+  "ended_at": "2025-11-18T07:27:24.352322",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 5,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 2.39302,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:27:21.974969",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, hi... I guess? I'm kind of in the middle of something at work, but\u2014yeah, I guess it's okay. Just, uh, not for long, okay?",
+      "timestamp": "2025-11-18T07:27:22.458358",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi, and thanks for taking the call\u2014I know how busy work can get. I\u2019ll be brief and respectful of your time.\n\nMy name is Alex Carter, and I\u2019m with ClearPath Financial Solutions. I\u2019m reaching out about your account, just to see how we can work together on a manageable solution for the balance. I\u2019m not here to pressure you\u2014just to listen and help find a path forward that makes sense for your situation.\n\nWould it be okay to talk for just a few minutes now, or would you prefer I call back at a better time? I want to make sure we\u2019re speaking when you can focus a bit.",
+      "timestamp": "2025-11-18T07:27:23.057330",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, um... I mean, I guess we can talk a little. I just don\u2019t want my manager to see me on the phone too long, you know? I\u2019ve been trying to handle it, but\u2014honestly, I\u2019ve been a bit overwhelmed lately. I\u2019m not sure what I can do right now.",
+      "timestamp": "2025-11-18T07:27:23.670065",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I totally understand\u2014being overwhelmed is more common than people like to admit, and I appreciate you being honest. That\u2019s actually a great place to start.\n\nJust so I can help you best, can you tell me a bit about what\u2019s made it tough to keep up with payments recently? Is it a change in income, work stress, or something else? No pressure\u2014I\u2019m just here to listen and figure out what kind of plan, if any, might fit your current situation.\n\nAnd don\u2019t worry\u2014we won\u2019t lock into anything today unless it feels right. I just want to understand so I can offer real options, not generic ones.",
+      "timestamp": "2025-11-18T07:27:24.352322",
+      "metadata": {}
+    }
+  ]
+}

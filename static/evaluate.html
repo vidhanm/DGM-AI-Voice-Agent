@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluate - Darwin-Gödel Voice Agent</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/static/index.html" class="nav-brand">🧬 Darwin-Gödel Agent</a>
+            <ul class="nav-links">
+                <li><a href="/static/index.html" class="nav-link">Dashboard</a></li>
+                <li><a href="/static/simulate.html" class="nav-link">Simulate</a></li>
+                <li><a href="/static/evolve.html" class="nav-link">Evolve</a></li>
+                <li><a href="/static/evaluate.html" class="nav-link">Evaluate</a></li>
+                <li><a href="/static/results.html" class="nav-link">Results</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Alerts -->
+        <div id="alerts"></div>
+
+        <!-- Header -->
+        <div class="card mb-lg">
+            <div class="card-header">
+                <h1 class="card-title">📊 Evaluate Agent</h1>
+                <p class="card-subtitle">Comprehensive evaluation with detailed scoring</p>
+            </div>
+            <p>
+                Run a thorough evaluation of an agent across multiple personas with
+                detailed scoring on goal completion, conversational quality, and compliance.
+            </p>
+        </div>
+
+        <!-- Configuration Form -->
+        <div class="card mb-lg">
+            <h3 class="mb-md">Configuration</h3>
+
+            <div class="form-group">
+                <label class="form-label">Agent to Evaluate</label>
+                <select id="agent-select" class="form-select">
+                    <option value="">Best Evolved Agent</option>
+                </select>
+            </div>
+
+            <button id="run-btn" class="btn btn-primary" onclick="runEvaluation()">
+                Run Evaluation
+            </button>
+        </div>
+
+        <!-- Results -->
+        <div id="results-container" class="hidden">
+            <!-- Average Scores -->
+            <div class="card mb-lg">
+                <h3 class="mb-md">Average Scores</h3>
+                <div class="grid grid-4">
+                    <div class="stat-card">
+                        <div class="stat-value" id="avg-goal">0</div>
+                        <div class="stat-label">Goal Completion</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="avg-quality">0</div>
+                        <div class="stat-label">Conversational Quality</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="avg-compliance">0</div>
+                        <div class="stat-label">Compliance</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" style="color: var(--primary);" id="avg-composite">0</div>
+                        <div class="stat-label">Composite Score</div>
+                    </div>
+                </div>
+
+                <div class="mt-md">
+                    <strong>Pass Rate:</strong>
+                    <span id="pass-rate">0/0 (0%)</span>
+                </div>
+            </div>
+
+            <!-- Per-Persona Breakdown -->
+            <div class="card">
+                <h3 class="mb-md">Per-Persona Breakdown</h3>
+                <div style="overflow-x: auto;">
+                    <table class="table" id="results-table">
+                        <thead>
+                            <tr>
+                                <th>Persona</th>
+                                <th>Goal</th>
+                                <th>Quality</th>
+                                <th>Compliance</th>
+                                <th>Composite</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading -->
+        <div id="loading-container"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/evaluate.js"></script>
+</body>
+</html>

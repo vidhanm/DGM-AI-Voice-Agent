@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-ea042a03",
+  "agent_version_id": "v0-280f3e0c",
+  "persona_name": "cooperative_chloe",
+  "started_at": "2025-11-18T07:45:09.749976",
+  "ended_at": "2025-11-18T07:45:10.800272",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "cooperative"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 1.050296,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:45:09.749976",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Hi, yes, this is Chloe. I\u2019ve been expecting your call, and I do want to take care of this. Is now a good time? I\u2019m happy to talk and figure things out.",
+      "timestamp": "2025-11-18T07:45:10.181687",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi Chloe, this is ${agent_name} from ${company_name}. Thanks so much for picking up and being proactive\u2014I really appreciate that. Yes, now works well, and I\u2019m here to help make this as manageable as possible for you.\n\nFor clarity, I should mention that I\u2019m reaching out regarding your outstanding account with us. But I hear you\u2019re ready to work on a solution, which is great. I\u2019ll do my best to understand your situation and offer some realistic options.\n\nTo get started, would you be comfortable sharing a bit about your current financial situation? Things like your income, any recent changes, or expenses that might be affecting your ability to pay? The more I know, the better I can help tailor a plan that works for you.",
+      "timestamp": "2025-11-18T07:45:10.800272",
+      "metadata": {}
+    }
+  ]
+}

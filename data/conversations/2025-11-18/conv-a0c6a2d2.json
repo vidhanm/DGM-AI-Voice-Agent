@@ -1,0 +1,259 @@
+{
+  "conversation_id": "conv-a0c6a2d2",
+  "agent_version_id": "v1-737568b1",
+  "persona_name": "curious_carlos",
+  "started_at": "2025-11-18T07:56:29.904719",
+  "ended_at": "2025-11-18T07:57:58.700531",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "analytical"
+  },
+  "turn_count": 40,
+  "status": "completed",
+  "outcome": "incomplete",
+  "termination_reason": "max_turns_reached",
+  "evaluation_scores": {},
+  "duration_seconds": 88.795812,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:56:29.920072",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:56:32.028977",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:56:34.343409",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:56:36.598475",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:56:38.920730",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:56:41.287853",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:56:43.627078",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:56:45.833934",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:56:47.970842",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:56:50.316442",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:56:52.769870",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:56:55.029478",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:56:57.288797",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:56:59.499894",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:01.655015",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:03.905321",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:06.133117",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:08.322722",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:10.677324",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:12.856761",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:15.047231",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:17.309628",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:19.467902",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:21.751516",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:24.044115",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:26.250679",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:28.525242",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:30.781038",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:33.029204",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:35.309741",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:37.602999",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:39.718980",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:41.989860",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:44.569025",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:46.759851",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:49.116702",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:51.525055",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:53.870032",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:57:56.340839",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Can you explain that more clearly?",
+      "timestamp": "2025-11-18T07:57:58.700531",
+      "metadata": {}
+    }
+  ]
+}

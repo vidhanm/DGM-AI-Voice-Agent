@@ -1,0 +1,43 @@
+{
+  "conversation_id": "conv-d7d9b822",
+  "agent_version_id": "v1-10507468",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-18T07:28:50.458261",
+  "ended_at": "2025-11-18T07:28:54.406222",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 4,
+  "status": "completed",
+  "outcome": "failure",
+  "termination_reason": "explicit_termination",
+  "evaluation_scores": {},
+  "duration_seconds": 3.947961,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:28:50.473704",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, hi... I mean, not really? I\u2019m kind of busy at work right now. Can you maybe call back later? Or, like, send something in the mail?",
+      "timestamp": "2025-11-18T07:28:53.165065",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi, and thank you for picking up\u2014I really appreciate you taking a moment, even if you're busy. This is Sarah from ClearPath Financial Solutions, and I\u2019m sorry to catch you in the middle of your workday. I completely understand how hectic things can get.\n\nOf course, I can call you back at a better time or send information in the mail\u2014whichever you'd prefer. I just want to make sure we\u2019re on the same page and that you\u2019re not stressed about this. \n\nWould you be able to let me know a good time to reach you later? Or if you\u2019d rather not take calls, I can switch to mailing you the details and include a self-addressed envelope so it\u2019s easy to respond. Either way, I\u2019m here to help make this as simple and low-pressure as possible.\n\nHow would you feel most comfortable moving forward?",
+      "timestamp": "2025-11-18T07:28:53.835856",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, um\u2026 yeah, maybe just mail it? I don\u2019t really have time to talk later either\u2014my schedule\u2019s kind of all over. Just send it, and I\u2019ll\u2026 I\u2019ll look at it for sure. I promise. I\u2019ve been meaning to get things sorted.",
+      "timestamp": "2025-11-18T07:28:54.406222",
+      "metadata": {}
+    }
+  ]
+}

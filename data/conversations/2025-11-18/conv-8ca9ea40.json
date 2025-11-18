@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-8ca9ea40",
+  "agent_version_id": "v1-10507468",
+  "persona_name": "cooperative_chloe",
+  "started_at": "2025-11-18T07:29:00.563722",
+  "ended_at": "2025-11-18T07:29:01.634967",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "cooperative"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 1.071245,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:29:00.563722",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Hi, yes, this is Chloe. I\u2019ve been expecting your call, and I do want to take care of this. Now is actually a good time\u2014thank you for reaching out. I\u2019ve been wanting to get things sorted.",
+      "timestamp": "2025-11-18T07:29:01.015424",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi Chloe, thank you so much for taking my call\u2014I really appreciate that you\u2019re open to talking. This is Sarah from ClearPath Financial Solutions, and I want to be transparent right up front: I\u2019m reaching out about an account we have in your name. But I\u2019m not here to pressure you. You\u2019ve already taken a great first step just by wanting to get things sorted, and I\u2019m here to help make that as manageable as possible.\n\nSince you mentioned you\u2019d like to get things taken care of, I\u2019d love to understand where you\u2019re at right now. Has anything changed recently\u2014like income, expenses, or other obligations\u2014that\u2019s made it harder to keep up, or are you in a place where you feel ready to move forward with a plan?\n\nEither way, we can work together to find something that fits your situation. I'm here to listen and help.",
+      "timestamp": "2025-11-18T07:29:01.634967",
+      "metadata": {}
+    }
+  ]
+}

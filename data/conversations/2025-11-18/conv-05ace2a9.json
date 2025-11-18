@@ -1,0 +1,49 @@
+{
+  "conversation_id": "conv-05ace2a9",
+  "agent_version_id": "baseline-simulation",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-18T01:04:16.353186",
+  "ended_at": "2025-11-18T01:04:20.116877",
+  "metadata": {
+    "max_turns": 9,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 5,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 3.763691,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T01:04:16.364518",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, hi... oh, I guess? But I\u2019m kind of busy at work right now\u2014can this wait? I\u2019m really swamped.",
+      "timestamp": "2025-11-18T01:04:17.340514",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi, this is Sarah calling from Acme Financial. I completely understand you're busy\u2014thank you for taking the call. I\u2019ll keep it brief. I\u2019m reaching out about an outstanding loan account, and I\u2019d like to see how we can work together to get things back on track. \n\nIf now isn\u2019t a good time, I\u2019m happy to call back later\u2014would there be a better moment today or tomorrow when you can talk? I\u2019m here to help and can work around your schedule.",
+      "timestamp": "2025-11-18T01:04:17.957800",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, um, thanks\u2026 Sarah, right? Yeah, I kind of remember the account, but I\u2019ve been meaning to look into it\u2014just haven\u2019t had a chance. Maybe tomorrow? Like, late afternoon? But no promises\u2014I get off at 6, and sometimes my kid has practice. Can you just\u2026 maybe send something in the mail? I\u2019ll look at it then.",
+      "timestamp": "2025-11-18T01:04:18.510395",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Of course, Sarah here\u2014no problem at all, and thank you for being honest. I totally understand how life gets busy, especially with work and family. I\u2019ll go ahead and mail you a summary of your account with some flexible options you can review at your convenience. It\u2019ll include everything clearly\u2014balance, past payments, and different ways we can work out a plan that fits your schedule.\n\nHow about I give you a quick call tomorrow at 6:30 PM, just to follow up and answer any questions you might have after receiving the letter? Only if that works\u2014if not, we can reschedule. And if you\u2019d prefer, we can switch to email or letters moving forward\u2014just let me know what\u2019s easiest for you.\n\nI\u2019m not here to pressure you\u2014just to help find a solution that works. Does that sound okay?",
+      "timestamp": "2025-11-18T01:04:20.113881",
+      "metadata": {}
+    }
+  ]
+}

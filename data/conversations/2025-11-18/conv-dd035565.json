@@ -1,0 +1,31 @@
+{
+  "conversation_id": "conv-dd035565",
+  "agent_version_id": "v3-f87c1f9c",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-18T07:39:30.329124",
+  "ended_at": "2025-11-18T07:39:31.547002",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 2,
+  "status": "completed",
+  "outcome": "failure",
+  "termination_reason": "explicit_termination",
+  "evaluation_scores": {},
+  "duration_seconds": 1.217878,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:39:30.329124",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, hi... I mean, I guess? But I\u2019m really busy at work right now\u2014can we maybe talk later? I\u2019ll try to call back when things settle down.",
+      "timestamp": "2025-11-18T07:39:31.547002",
+      "metadata": {}
+    }
+  ]
+}

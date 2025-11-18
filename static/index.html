@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darwin-Gödel Voice Agent - Dashboard</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/static/index.html" class="nav-brand">🧬 Darwin-Gödel Agent</a>
+            <ul class="nav-links">
+                <li><a href="/static/index.html" class="nav-link">Dashboard</a></li>
+                <li><a href="/static/simulate.html" class="nav-link">Simulate</a></li>
+                <li><a href="/static/evolve.html" class="nav-link">Evolve</a></li>
+                <li><a href="/static/evaluate.html" class="nav-link">Evaluate</a></li>
+                <li><a href="/static/results.html" class="nav-link">Results</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Alerts -->
+        <div id="alerts"></div>
+
+        <!-- Header -->
+        <div class="card mb-lg">
+            <div class="card-header">
+                <h1 class="card-title">Welcome to Darwin-Gödel Voice Agent</h1>
+                <p class="card-subtitle">Self-evolving AI agent for debt collection conversations</p>
+            </div>
+            <p>
+                This system uses evolutionary algorithms and LLM-based evaluation to create
+                increasingly effective voice agents. Start by running a simulation, or jump
+                straight into evolution mode to improve your agent automatically.
+            </p>
+        </div>
+
+        <!-- System Stats -->
+        <div class="grid grid-4 mb-lg">
+            <div class="card stat-card">
+                <div class="stat-value" id="total-agents">-</div>
+                <div class="stat-label">Total Agents</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-value" id="best-score">-</div>
+                <div class="stat-label">Best Score</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-value" id="llm-provider">-</div>
+                <div class="stat-label">LLM Provider</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-value" style="font-size: 1.5rem;">Online</div>
+                <div class="stat-label">System Status</div>
+            </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="grid grid-2 mb-lg">
+            <div class="card">
+                <h3 class="mb-md">🤖 Run Simulation</h3>
+                <p class="mb-md" style="color: var(--text-secondary);">
+                    Test your agent against multiple personas in text-based conversations.
+                    See how it performs before running evolution.
+                </p>
+                <a href="/static/simulate.html" class="btn btn-primary">Start Simulation</a>
+            </div>
+
+            <div class="card">
+                <h3 class="mb-md">🧬 Run Evolution</h3>
+                <p class="mb-md" style="color: var(--text-secondary);">
+                    Let the system automatically evolve better agents through multiple
+                    generations of mutation and selection.
+                </p>
+                <a href="/static/evolve.html" class="btn btn-success">Start Evolution</a>
+            </div>
+        </div>
+
+        <div class="grid grid-2 mb-lg">
+            <div class="card">
+                <h3 class="mb-md">📊 Evaluate Agent</h3>
+                <p class="mb-md" style="color: var(--text-secondary);">
+                    Run comprehensive evaluation on a specific agent version with
+                    detailed scoring across multiple dimensions.
+                </p>
+                <a href="/static/evaluate.html" class="btn btn-primary">Evaluate</a>
+            </div>
+
+            <div class="card">
+                <h3 class="mb-md">📚 Browse Results</h3>
+                <p class="mb-md" style="color: var(--text-secondary);">
+                    View past evolution runs, compare agents, and explore conversation
+                    logs from previous sessions.
+                </p>
+                <a href="/static/results.html" class="btn btn-primary">View Results</a>
+            </div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">How It Works</h2>
+            </div>
+            <div class="grid grid-3">
+                <div>
+                    <h4 class="mb-sm">1. Baseline Agent</h4>
+                    <p style="color: var(--text-secondary); font-size: 0.875rem;">
+                        Start with a hand-crafted prompt designed for debt collection
+                        conversations. This serves as generation 0.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="mb-sm">2. Evolution</h4>
+                    <p style="color: var(--text-secondary); font-size: 0.875rem;">
+                        The system creates variations, tests them against personas,
+                        evaluates performance, and selects the best for the next generation.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="mb-sm">3. Best Agent</h4>
+                    <p style="color: var(--text-secondary); font-size: 0.875rem;">
+                        After multiple generations, you get an optimized agent that
+                        performs better than the baseline on all metrics.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Info -->
+        <div class="mt-xl" style="text-align: center; color: var(--text-secondary); font-size: 0.875rem;">
+            <p>Darwin-Gödel Machine Voice Agent v1.0.0</p>
+            <p>Powered by Cerebras (FREE), LiveKit, and Evolutionary Algorithms</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

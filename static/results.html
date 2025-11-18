@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results - Darwin-Gödel Voice Agent</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/static/index.html" class="nav-brand">🧬 Darwin-Gödel Agent</a>
+            <ul class="nav-links">
+                <li><a href="/static/index.html" class="nav-link">Dashboard</a></li>
+                <li><a href="/static/simulate.html" class="nav-link">Simulate</a></li>
+                <li><a href="/static/evolve.html" class="nav-link">Evolve</a></li>
+                <li><a href="/static/evaluate.html" class="nav-link">Evaluate</a></li>
+                <li><a href="/static/results.html" class="nav-link">Results</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Alerts -->
+        <div id="alerts"></div>
+
+        <!-- Header -->
+        <div class="card mb-lg">
+            <div class="card-header">
+                <h1 class="card-title">📚 Browse Results</h1>
+                <p class="card-subtitle">View past evolution runs and agents</p>
+            </div>
+            <p>
+                Explore all evolved agents, compare performance, and view conversation logs.
+            </p>
+        </div>
+
+        <!-- Agents List -->
+        <div class="card">
+            <h3 class="mb-md">All Agents</h3>
+            <div style="overflow-x: auto;">
+                <table class="table" id="agents-table">
+                    <thead>
+                        <tr>
+                            <th>Agent ID</th>
+                            <th>Generation</th>
+                            <th>Composite Score</th>
+                            <th>Parent</th>
+                            <th>Created</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Loading -->
+        <div id="loading-container"></div>
+    </div>
+
+    <!-- Agent Details Modal (simple overlay) -->
+    <div id="agent-modal" class="hidden" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 1000;">
+        <div class="card" style="max-width: 800px; max-height: 90vh; overflow-y: auto; margin: var(--spacing-lg);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-lg);">
+                <h3 id="modal-title">Agent Details</h3>
+                <button onclick="closeModal()" class="btn btn-secondary">Close</button>
+            </div>
+            <div id="modal-content">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/results.js"></script>
+</body>
+</html>

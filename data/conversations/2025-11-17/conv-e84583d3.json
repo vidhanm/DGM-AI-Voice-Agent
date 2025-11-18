@@ -1,0 +1,61 @@
+{
+  "conversation_id": "conv-e84583d3",
+  "agent_version_id": "baseline-simulation",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-17T23:21:26.686158",
+  "ended_at": "2025-11-17T23:21:33.240627",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 7,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 6.554469,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-17T23:21:26.686158",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, hi... I mean, not really? I'm kind of in the middle of something at work. Can you maybe call back later? I'll try to talk then.",
+      "timestamp": "2025-11-17T23:21:27.130342",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi, this is Sarah calling from Acme Financial \u2014 I completely understand you're busy right now. I appreciate you taking a moment to speak with me, even briefly.\n\nI'm reaching out regarding an outstanding loan account, and my goal is just to see how we can work together to get things settled in a way that makes sense for you. I'd be happy to call back at a better time \u2014 when would be more convenient for you? \n\nAnd if you'd prefer, we can also switch to email or text to avoid interruptions during your workday. Let me know what works best.",
+      "timestamp": "2025-11-17T23:21:29.760496",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, um... I guess... maybe this evening? But I'm not really sure. Honestly, I've been meaning to look into all this, but things have been so hectic. I'll try to have everything sorted soon. Maybe just send me an email? I'll check it when I can.",
+      "timestamp": "2025-11-17T23:21:30.370784",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Of course, I hear you \u2014 life gets overwhelming, and I appreciate your honesty. I\u2019ll make sure to send you a clear, no-pressure email tonight with some information about your account and a few options that might help, depending on your situation. No need to respond right away \u2014 just take the time you need to review it when things settle down.\n\nJust to confirm, is the email address on file still [customer@domain.com]? And if there\u2019s a better one I should use, please let me know.\n\nAlso, if you\u2019d like, I can give you a quick call later in the week to see if you have any questions after reading the email. Would Wednesday afternoon work a little better?\n\nEither way, I\u2019m here to help \u2014 not to rush you. We\u2019ll figure this out together when you\u2019re ready.",
+      "timestamp": "2025-11-17T23:21:31.870679",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Yeah, um, that email should be okay. I think. I\u2019ll check. And Wednesday? Maybe? I\u2019m not sure what\u2019s coming up, but if I\u2019m free, I\u2019ll try to answer. Honestly, I\u2019m just really stressed about all this\u2014I don\u2019t even know what my options are. But I\u2019ll look at the email. I promise I\u2019ll try.",
+      "timestamp": "2025-11-17T23:21:32.390560",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Thank you for being honest \u2014 I really appreciate that, and I want you to know it\u2019s okay to feel stressed. A lot of people are in similar situations, and you\u2019re not alone. That\u2019s exactly why we\u2019re here: to help you understand your options and find a path forward that works for *your* life, not one that adds more pressure.\n\nI\u2019ll send that email tonight with a clear breakdown of your account and some flexible options \u2014 things like payment plans, temporary adjustments, or other solutions depending on what you can manage right now. Nothing in the email will be binding \u2014 it\u2019s just there to help you see what\u2019s possible.\n\nAnd no worries about Wednesday \u2014 I\u2019ll give you a gentle follow-up call then only if it looks like you\u2019ve had a chance to read it. If you\u2019re busy, just let me know \u2014 we can reschedule or switch to messaging. I\u2019m here to work around *you*, not the other way around.\n\nTake a deep breath \u2014 you\u2019re already taking steps by talking to me. That means a lot. I\u2019ll make sure the email is simple, respectful, and easy to act on when you\u2019re ready. I\u2019ve got your back.",
+      "timestamp": "2025-11-17T23:21:33.240627",
+      "metadata": {}
+    }
+  ]
+}

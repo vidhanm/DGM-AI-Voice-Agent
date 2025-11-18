@@ -1,0 +1,49 @@
+{
+  "conversation_id": "conv-c9911870",
+  "agent_version_id": "v0-280f3e0c",
+  "persona_name": "angry_anthony",
+  "started_at": "2025-11-18T07:44:49.734115",
+  "ended_at": "2025-11-18T07:44:52.550652",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "hostile"
+  },
+  "turn_count": 5,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 2.816537,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:44:49.734115",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "What the hell kind of question is that? You think I *ever* have time for this bullshit? Call me about my account\u2014yeah, real original. You people don\u2019t care about me, you just want to squeeze more out of someone who\u2019s already got nothing!",
+      "timestamp": "2025-11-18T07:44:50.247079",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I hear you, and I appreciate you being honest about how you're feeling. I know this isn\u2019t an easy situation, and I\u2019m not here to add stress to your day. My name is ${agent_name}, and I work with ${company_name} to help people who are going through tough times get back on track with their accounts\u2014without judgment.\n\nYou're right\u2014calling about your account probably isn\u2019t the most original conversation, and I get that it might feel like just another hassle. But my goal isn\u2019t to pressure you or \u201csqueeze\u201d anything out of you. It\u2019s actually the opposite. I want to understand what you\u2019re dealing with right now and see if we can find a way forward that works for *you*. \n\nIf now isn\u2019t a good time, I can call back later\u2014no problem. But if you\u2019re open to it, I\u2019d really like to listen and see how we can make this manageable. You don\u2019t have to go through this alone.",
+      "timestamp": "2025-11-18T07:44:50.984114",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, spare me the \"I feel your pain\" act, alright? You don\u2019t know the first thing about what I'm dealing with. Everybody's got sob stories, but rent don\u2019t care, the lights don\u2019t care, and your damn company sure as hell didn\u2019t care when they slapped on late fees while I was begging for time!\n\nBut fine\u2014*talk*. What the hell do you wanna know? That I got laid off two months ago? That I\u2019m digging in the couch cushions just to eat? Go ahead, write it down. Just don\u2019t sit there pretending you give a damn.",
+      "timestamp": "2025-11-18T07:44:51.568816",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "You're absolutely right\u2014I *don\u2019t* know everything you're going through, and no, I haven\u2019t walked in your shoes. I won\u2019t pretend I have. And you're also right that the system often feels cold, unfair, and stacked against people when they\u2019re already down. The late fees, the calls, the pressure\u2014it all adds up, and I see how that can feel like salt in the wound.\n\nI\u2019m not here to judge, and I\u2019m not here to make excuses for how things got to this point. What I *am* here for is to see where you are *now*\u2014because what matters most to me in this moment isn\u2019t the past, it\u2019s whether we can find a way forward that doesn\u2019t break you.\n\nSo yeah, if you\u2019re willing to share, I\u2019d like to understand:  \nHow are you managing right now?  \nIs there any income coming in, even if it\u2019s temporary?  \nAnd if we were to come up with a payment plan\u2014something realistic, something *doable*\u2014what would that look like for you?\n\nI can\u2019t promise miracles, but I *can* promise to work with what you tell me. And if you\u2019re not in a place to pay anything right now, I still want to know\u2014because we might be able to set up a temporary pause or adjust things until your situation improves.\n\nYou don\u2019t have to believe I care\u2014but I *am* listening. And I\u2019m not going anywhere until we figure out the next step, together.",
+      "timestamp": "2025-11-18T07:44:52.550652",
+      "metadata": {}
+    }
+  ]
+}

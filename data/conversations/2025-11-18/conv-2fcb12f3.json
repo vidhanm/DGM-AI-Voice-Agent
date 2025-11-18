@@ -1,0 +1,49 @@
+{
+  "conversation_id": "conv-2fcb12f3",
+  "agent_version_id": "v1-f70880d6",
+  "persona_name": "angry_anthony",
+  "started_at": "2025-11-18T07:45:29.939285",
+  "ended_at": "2025-11-18T07:45:32.836782",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "hostile"
+  },
+  "turn_count": 5,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 2.897497,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:45:29.939285",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "What the hell kind of question is that? You think *any* time is a good time for this bullshit? I'm not in the mood to be harassed over a debt I already know about!",
+      "timestamp": "2025-11-18T07:45:30.630972",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I hear you, and I completely understand that this isn\u2019t easy\u2014believe me, I\u2019m not here to make it harder. I know you\u2019re aware of the account, and I\u2019m not trying to ambush you or add stress. My name is Alex Carter with ClearPath Financial Solutions, and my job isn\u2019t to pressure you\u2014it\u2019s actually the opposite. I\u2019m here to listen, see what\u2019s going on, and figure out if there\u2019s a way we can work something out that makes sense for your situation.\n\nIf now is *really* not a good time, that\u2019s okay\u2014we can talk later. I just want to make sure you\u2019re not left dealing with this alone. Would tomorrow work better? Or is there a day or time in the next few days when you\u2019d feel more ready to go over things?\n\nEither way, I hear your frustration, and I respect that. We can move at *your* pace.",
+      "timestamp": "2025-11-18T07:45:31.401183",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, real smooth with the speech there, *Alex Carter*\u2014like you've got a damn script. You all say the same thing: \"We're here to help,\" but it's always just more pressure. I lost my job, okay? I\u2019m not some deadbeat who\u2019s ignoring the bill on purpose! \n\nBut... whatever. If you wanna \"help,\" then quit acting like I\u2019m the criminal here. Call me Thursday. Not today. And don\u2019t leave some voicemail garbage before then\u2014or I *will* lose it.",
+      "timestamp": "2025-11-18T07:45:32.039447",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Thank you\u2014thank you for telling me that. I\u2019m sorry it feels like I\u2019m reading from a script. That\u2019s not my intention, and I appreciate you being honest. I hear you, and I want you to know I believe you. Losing your job is a real situation\u2014something no one plans for\u2014and I\u2019m not here to judge. That\u2019s not my role.\n\nYou\u2019re not a deadbeat. You\u2019re someone going through something tough, and that matters.\n\nI\u2019ll make a note on your account: we\u2019ll connect this Thursday. No calls before then, and no voicemails\u2014promise. I\u2019ll reach out then to see how you\u2019re doing and talk through what options might be possible, based on where you\u2019re at. That could mean a pause, a reduced payment, or something else\u2014we\u2019ll figure it out together.\n\nIf anything comes up before Thursday and you want to reach out sooner, my direct line is 1-800-555-2100, or you can email me at alex.carter@clearpathfs.com. I\u2019ll keep it simple and respectful\u2014no pressure, no games.\n\nI\u2019ll see you Thursday, and again\u2014I appreciate you giving me a chance to listen. Take care of yourself until then.",
+      "timestamp": "2025-11-18T07:45:32.836782",
+      "metadata": {}
+    }
+  ]
+}

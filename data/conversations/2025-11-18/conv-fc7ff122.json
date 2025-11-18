@@ -1,0 +1,31 @@
+{
+  "conversation_id": "conv-fc7ff122",
+  "agent_version_id": "baseline-simulation",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-18T00:26:53.271823",
+  "ended_at": "2025-11-18T00:26:53.754208",
+  "metadata": {
+    "max_turns": 5,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 2,
+  "status": "completed",
+  "outcome": "failure",
+  "termination_reason": "explicit_termination",
+  "evaluation_scores": {},
+  "duration_seconds": 0.482385,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T00:26:53.283253",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, hi... I guess? I'm kind of busy at work right now, just between customers. Can we maybe talk later? I'll try to call back when I'm off, I think.",
+      "timestamp": "2025-11-18T00:26:53.750213",
+      "metadata": {}
+    }
+  ]
+}

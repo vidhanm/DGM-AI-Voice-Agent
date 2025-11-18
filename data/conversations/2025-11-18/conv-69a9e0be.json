@@ -1,0 +1,259 @@
+{
+  "conversation_id": "conv-69a9e0be",
+  "agent_version_id": "v1-25e13f89",
+  "persona_name": "desperate_david",
+  "started_at": "2025-11-18T07:51:52.465692",
+  "ended_at": "2025-11-18T07:53:21.326437",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "desperate"
+  },
+  "turn_count": 40,
+  "status": "completed",
+  "outcome": "incomplete",
+  "termination_reason": "max_turns_reached",
+  "evaluation_scores": {},
+  "duration_seconds": 88.860745,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:51:52.465692",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:51:54.683003",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:51:56.899061",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:51:59.257873",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:01.629272",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:03.930983",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:06.254615",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:08.485224",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:10.808197",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:13.102095",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:15.244405",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:17.597904",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:19.990035",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:22.180156",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:24.381533",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:26.593548",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:28.746130",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:31.034007",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:33.245770",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:35.474004",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:37.703057",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:39.995282",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:42.316267",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:44.623403",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:46.945131",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:49.197225",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:51.472960",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:53.766575",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:52:56.023528",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:52:58.137837",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:00.431532",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:53:02.744060",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:05.035172",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:53:07.411525",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:09.835224",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:53:12.142631",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:14.533134",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:53:16.924367",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:19.076952",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "I'm trying my best here...",
+      "timestamp": "2025-11-18T07:53:21.324325",
+      "metadata": {}
+    }
+  ]
+}

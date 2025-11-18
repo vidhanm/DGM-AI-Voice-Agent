@@ -60,9 +60,9 @@ class EvolutionaryLoop:
         self.evaluator = evaluator
 
         # Initialize components
-        self.prompt_rewriter = PromptRewriter(config.get_all())
-        self.termination_policy = TerminationPolicy(config.get_all())
-        self.conversation_logger = ConversationLogger(config.get_all())
+        self.prompt_rewriter = PromptRewriter(config.to_dict())
+        self.termination_policy = TerminationPolicy(config.to_dict())
+        self.conversation_logger = ConversationLogger()
 
         # Evolution parameters
         evolution_config = config.get('evolution', {})
@@ -289,13 +289,13 @@ class EvolutionaryLoop:
             Agent version ID
         """
         # Load base prompt template
-        template = self.prompt_manager.load_template('config/base_prompt.yaml')
-        base_prompt = template.template_text
+        template = self.prompt_manager.load_template('base_prompt.yaml')
+        base_prompt = template.template
 
         # Save as generation 0
         version_id = self.agent_archive.save_agent(
             prompt=base_prompt,
-            config=self.config.get_all(),
+            config=self.config.to_dict(),
             parent_id=None,
             generation=0,
             mutation_strategy='baseline',
@@ -324,14 +324,14 @@ class EvolutionaryLoop:
                 agent_instance = BaseAgent(
                     agent_version_id=agent_id,
                     prompt=agent.prompt,
-                    config=self.config.get_all()
+                    config=self.config
                 )
 
                 # Create persona
                 persona = PersonaEngine(
                     persona_name=persona_name,
                     personas_dir='simulation/personas',
-                    config=self.config.get_all()
+                    config=self.config
                 )
 
                 # Run conversation
@@ -339,7 +339,7 @@ class EvolutionaryLoop:
                     agent=agent_instance,
                     persona=persona,
                     logger=self.conversation_logger,
-                    config=self.config.get_all()
+                    max_turns=self.config.get('simulation.max_turns', 20)
                 )
 
                 result = runner.run_conversation()
@@ -380,10 +380,9 @@ class EvolutionaryLoop:
         """
         self.agent_archive.update_scores(
             version_id=agent_id,
-            goal_completion_score=eval_results['avg_goal_score'],
-            conversational_quality_score=eval_results['avg_quality_score'],
-            compliance_score=eval_results['avg_compliance_score'],
-            composite_score=eval_results['avg_composite_score']
+            goal_completion=eval_results['avg_goal_score'],
+            conversational_quality=eval_results['avg_quality_score'],
+            compliance=eval_results['avg_compliance_score']
         )
 
     def _get_agent_evaluation_results(self, agent_id: str) -> List[Dict[str, Any]]:
@@ -424,8 +423,8 @@ class EvolutionaryLoop:
         lineage = self.agent_archive.get_lineage(best_agent_id)
 
         # Get baseline (generation 0)
-        baseline = next((a for a in lineage if a['generation'] == 0), None)
-        baseline_score = baseline['composite_score'] if baseline else 0.0
+        baseline = next((a for a in lineage if a.generation == 0), None)
+        baseline_score = baseline.composite_score if baseline else 0.0
 
         improvement = best_agent.composite_score - baseline_score
 
@@ -437,7 +436,7 @@ class EvolutionaryLoop:
             'improvement_percentage': (improvement / baseline_score * 100) if baseline_score > 0 else 0.0,
             'generations': self.current_generation,
             'termination_reason': termination_reason,
-            'lineage': lineage,
+            'lineage': [agent.to_dict() for agent in lineage],
             'evolution_log': self.evolution_log,
             'policy_summary': self.termination_policy.get_summary()
         }

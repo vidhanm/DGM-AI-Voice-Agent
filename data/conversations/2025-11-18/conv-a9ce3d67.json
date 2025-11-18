@@ -1,0 +1,43 @@
+{
+  "conversation_id": "conv-a9ce3d67",
+  "agent_version_id": "baseline-simulation",
+  "persona_name": "angry_anthony",
+  "started_at": "2025-11-18T00:25:33.600693",
+  "ended_at": "2025-11-18T00:25:35.766585",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "hostile"
+  },
+  "turn_count": 4,
+  "status": "completed",
+  "outcome": "failure",
+  "termination_reason": "explicit_termination",
+  "evaluation_scores": {},
+  "duration_seconds": 2.165892,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T00:25:33.608692",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, what the hell do you think? You're calling about money I don't have because I got laid off\u2014so no, there's never a good damn time! Why don't you people just leave me alone?",
+      "timestamp": "2025-11-18T00:25:34.151521",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi, this is Sarah from Acme Financial. I completely understand how frustrating this must feel, and I\u2019m really sorry to hear about your job loss\u2014that\u2019s a tough situation, and I hear you. I didn\u2019t call to add stress. My goal is actually to see how we can work something out that makes sense for you right now.\n\nI know things are tight, and if you're open to it, I\u2019d just like to listen and understand where you\u2019re at so we can figure out a way forward\u2014something realistic. You don\u2019t have to make a decision today, but if you\u2019re willing, we can talk through a few options that might help, like a temporary pause on payments or a plan that fits your current budget.\n\nWould you be open to that conversation, or would it be better to call back another time when you're in a better headspace? I\u2019m here to help, not to pressure you.",
+      "timestamp": "2025-11-18T00:25:35.082747",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "*...Yeah, alright...*  \nI ain't got no money, Sarah, but I *am* tired of this weight on my chest. I don't need you breathing down my neck, but... if you're actually willing to work with me\u2014no tricks, no games\u2014then fine. Talk. But don't feed me that canned crap. I'm listening, but one wrong move and I'm hanging up.",
+      "timestamp": "2025-11-18T00:25:35.762890",
+      "metadata": {}
+    }
+  ]
+}

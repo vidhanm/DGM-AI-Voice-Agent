@@ -12,6 +12,12 @@ from typing import Dict, Any, List, Optional
 from openai import OpenAI
 from anthropic import Anthropic
 
+try:
+    from cerebras.cloud.sdk import Cerebras
+    CEREBRAS_AVAILABLE = True
+except ImportError:
+    CEREBRAS_AVAILABLE = False
+
 from core import Config
 
 
@@ -19,9 +25,9 @@ class PersonaEngine:
     """
     Simulates a user persona for testing the voice agent.
 
-    Loads a persona definition from YAML and uses an LLM to generate
-    responses that match the persona's characteristics, background,
-    and emotional state.
+    Loads a persona definition from YAML and uses an LLM (OpenAI, Anthropic,
+    or Cerebras) to generate responses that match the persona's characteristics,
+    background, and emotional state.
     """
 
     def __init__(
@@ -97,6 +103,16 @@ class PersonaEngine:
             if not api_key:
                 raise ValueError("ANTHROPIC_API_KEY environment variable not set")
             self.client = Anthropic(api_key=api_key)
+
+        elif self.provider == 'cerebras':
+            if not CEREBRAS_AVAILABLE:
+                raise ValueError(
+                    "Cerebras SDK not installed. Run: pip install cerebras-cloud-sdk"
+                )
+            api_key = os.getenv('CEREBRAS_API_KEY')
+            if not api_key:
+                raise ValueError("CEREBRAS_API_KEY environment variable not set")
+            self.client = Cerebras(api_key=api_key)
 
         else:
             raise ValueError(f"Unsupported LLM provider: {self.provider}")
@@ -188,6 +204,8 @@ Remember: You are {pd.get('display_name', self.persona_name)}. Respond naturally
             response = self._generate_openai_response()
         elif self.provider == 'anthropic':
             response = self._generate_anthropic_response()
+        elif self.provider == 'cerebras':
+            response = self._generate_cerebras_response()
         else:
             raise ValueError(f"Unsupported provider: {self.provider}")
 
@@ -238,6 +256,28 @@ Remember: You are {pd.get('display_name', self.persona_name)}. Respond naturally
 
         except Exception as e:
             print(f"❌ Anthropic API error: {e}")
+            return self._get_fallback_response()
+
+    def _generate_cerebras_response(self) -> str:
+        """Generate response using Cerebras API (OpenAI-compatible)."""
+        # Cerebras uses OpenAI-compatible API format
+        messages = [
+            {'role': 'system', 'content': self.persona_prompt}
+        ] + self.conversation_history
+
+        try:
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=messages,
+                temperature=self.temperature,
+                max_completion_tokens=self.max_tokens,
+                stream=False  # Non-streaming for now
+            )
+
+            return response.choices[0].message.content
+
+        except Exception as e:
+            print(f"❌ Cerebras API error: {e}")
             return self._get_fallback_response()
 
     def _get_fallback_response(self) -> str:

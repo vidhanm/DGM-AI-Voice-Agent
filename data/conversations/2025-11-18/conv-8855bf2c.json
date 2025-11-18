@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-8855bf2c",
+  "agent_version_id": "baseline-simulation",
+  "persona_name": "curious_carlos",
+  "started_at": "2025-11-18T00:41:22.040688",
+  "ended_at": "2025-11-18T00:41:23.041882",
+  "metadata": {
+    "max_turns": 10,
+    "persona_archetype": "analytical"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 1.001194,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T00:41:22.041688",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Uh, hi\u2014this is Carlos. Actually, I\u2019ve been meaning to look into this. Can you first confirm which account we\u2019re talking about and what company you\u2019re with? I want to make sure I have the right context before we dive in.",
+      "timestamp": "2025-11-18T00:41:22.476835",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi Carlos, thank you for picking up. My name is Sarah, and I'm a debt resolution specialist with Acme Financial. I'm reaching out regarding a loan account that's currently past due under your name. I completely understand wanting to make sure we're on the same page\u2014I'm happy to verify everything.\n\nFor your security, could I please confirm your date of birth or the last four digits of your Social Security number? That way, I can pull up the correct account and give you accurate information. Everything we discuss today will remain confidential and is aimed at helping you get back on track.",
+      "timestamp": "2025-11-18T00:41:23.040884",
+      "metadata": {}
+    }
+  ]
+}

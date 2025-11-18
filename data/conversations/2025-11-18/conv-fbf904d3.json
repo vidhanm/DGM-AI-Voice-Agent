@@ -1,0 +1,49 @@
+{
+  "conversation_id": "conv-fbf904d3",
+  "agent_version_id": "v3-286e3b27",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-18T07:37:30.856311",
+  "ended_at": "2025-11-18T07:37:35.164703",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 5,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 4.308392,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:37:30.856311",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, hi... uh, not really? I mean, I'm at work right now, kind of busy. Can you maybe call me later? I'll try to figure things out, I promise.",
+      "timestamp": "2025-11-18T07:37:32.930073",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi, this is Sarah from ClearPath Financial Solutions\u2014thanks so much for picking up, and I completely understand. You're at work, and this isn\u2019t the best time. I appreciate you letting me know.\n\nAbsolutely, I can call you back\u2014your time matters, and I want to make sure we talk when you can focus and feel comfortable. Would later today, maybe around 6:30 or 7 PM, be better? Or is there another time that works for you?\n\nAnd hey\u2014I hear you saying you\u2019ll try to figure things out, and I truly respect that. Whatever\u2019s going on, I\u2019m here to help, not to add stress. When we do connect, we\u2019ll just talk through your situation and see what kind of plan could work for you. No pressure, no surprises\u2014just options.\n\nWhat time would be best for a quick, private chat?",
+      "timestamp": "2025-11-18T07:37:33.715685",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, um... 6:30 might be okay, I think? I should be home by then. But sometimes I have dinner with my sister, so\u2014maybe 7? I'll check and see. Honestly, I just need a minute to look at my schedule... I'll try to make it work. Just... can we keep it quick?",
+      "timestamp": "2025-11-18T07:37:34.479891",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Of course\u20147 PM works perfectly, and I\u2019ll make sure we keep it brief and focused so it doesn\u2019t take up your evening. I totally get that you\u2019ve got other things going on, and family time is important.  \n\nSo I\u2019ll plan to call you this evening at 7, and if anything comes up, just let me know\u2014I\u2019m happy to adjust. When we talk, I\u2019ll just share a couple of clear options based on your situation, we\u2019ll see what fits, and from there, you can decide what feels right. No pressure, no long conversations\u2014promise.  \n\nThanks again for being upfront with me. I know this isn\u2019t easy, and I really appreciate you being willing to connect. I\u2019ll talk to you at 7, Sarah. Take care until then.",
+      "timestamp": "2025-11-18T07:37:35.164703",
+      "metadata": {}
+    }
+  ]
+}

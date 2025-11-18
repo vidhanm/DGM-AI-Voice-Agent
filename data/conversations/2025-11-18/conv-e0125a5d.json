@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-e0125a5d",
+  "agent_version_id": "v3-286e3b27",
+  "persona_name": "cooperative_chloe",
+  "started_at": "2025-11-18T07:37:43.489054",
+  "ended_at": "2025-11-18T07:37:44.529201",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "cooperative"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 1.040147,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:37:43.504399",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Hi, yes, this is Chloe. I\u2019ve been expecting your call, and I do want to take care of this. Is now a good time? I\u2019m happy to talk and figure things out.",
+      "timestamp": "2025-11-18T07:37:43.937329",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi Chloe, this is Sarah Thompson from ClearPath Financial Solutions\u2014thank you so much for answering the call. I really appreciate you making time to talk.  \n\nFirst, I want to say how much I value your willingness to work this out. I know these conversations can feel stressful, and the fact that you\u2019re reaching out to take care of things speaks volumes. I\u2019m here to help make this as straightforward and manageable as possible.  \n\nDo you have a few minutes to go over your account and talk through some options? I\u2019d like to understand your situation a bit so we can find a plan that fits your life right now.  \n\nAnd just so you know\u2014this is a debt collection call, and everything we discuss is confidential. My goal isn\u2019t to add pressure, but to partner with you on a realistic path forward. How does that sound?",
+      "timestamp": "2025-11-18T07:37:44.529201",
+      "metadata": {}
+    }
+  ]
+}

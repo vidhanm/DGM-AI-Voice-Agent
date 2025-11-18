@@ -1,0 +1,259 @@
+{
+  "conversation_id": "conv-012d3e36",
+  "agent_version_id": "v1-737568b1",
+  "persona_name": "angry_anthony",
+  "started_at": "2025-11-18T07:53:25.629007",
+  "ended_at": "2025-11-18T07:54:53.340403",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "hostile"
+  },
+  "turn_count": 40,
+  "status": "completed",
+  "outcome": "incomplete",
+  "termination_reason": "max_turns_reached",
+  "evaluation_scores": {},
+  "duration_seconds": 87.711396,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:53:25.644672",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:53:27.913745",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:30.143018",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:53:32.327422",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:34.554828",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:53:36.859231",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:39.055866",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:53:41.178513",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:43.248428",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:53:45.571864",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:47.745058",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:53:49.883664",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:52.127052",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:53:54.522071",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:53:56.768305",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:53:58.965360",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:01.218008",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:03.477465",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:05.696495",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:07.853048",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:10.056781",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:12.348926",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:14.624428",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:16.758773",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:19.076722",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:21.382831",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:23.674711",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:26.065584",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:28.476454",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:30.783652",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:33.063492",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:35.424308",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:37.657179",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:39.856221",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:42.233020",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:44.471922",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:46.729531",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:48.888813",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I apologize, I'm having technical difficulties. Could you please repeat that?",
+      "timestamp": "2025-11-18T07:54:51.052474",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Look, I don't have time for this right now.",
+      "timestamp": "2025-11-18T07:54:53.340403",
+      "metadata": {}
+    }
+  ]
+}

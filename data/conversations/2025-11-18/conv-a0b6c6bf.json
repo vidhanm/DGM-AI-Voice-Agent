@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-a0b6c6bf",
+  "agent_version_id": "v0-73dacfb9",
+  "persona_name": "angry_anthony",
+  "started_at": "2025-11-18T07:26:35.204815",
+  "ended_at": "2025-11-18T07:26:38.093747",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "hostile"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 2.888932,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:26:35.208377",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Are you kidding me? You think *any* time is a good time to harass me about money when I'm sitting here broke and unemployed? What the hell do you want now?",
+      "timestamp": "2025-11-18T07:26:37.351560",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I hear you, and I want to start by saying I\u2019m truly sorry you\u2019re going through this. That sounds incredibly tough, and I\u2019m not here to add to your stress. My name is ${agent_name}, and I\u2019m with ${company_name}. I\u2019m calling because we noticed your loan has been past due, and I\u2019d like to see if we can work out something manageable \u2014 especially given everything you're dealing with.\n\nI\u2019m not here to pressure you or make things harder. In fact, if you're unemployed right now, that changes things, and we should talk about options that could give you some breathing room. We\u2019ve helped others in similar situations with things like payment holidays, reduced payments, or adjusting the timeline.\n\nWould you be open to going over what\u2019s possible \u2014 even briefly \u2014 so you\u2019re not left feeling blindsided later? Whatever you can share, I\u2019ll do my best to help find a path forward that respects where you are right now.",
+      "timestamp": "2025-11-18T07:26:38.090774",
+      "metadata": {}
+    }
+  ]
+}

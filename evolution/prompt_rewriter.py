@@ -11,6 +11,12 @@ import json
 from openai import OpenAI
 from anthropic import Anthropic
 
+try:
+    from cerebras.cloud.sdk import Cerebras
+    CEREBRAS_AVAILABLE = True
+except ImportError:
+    CEREBRAS_AVAILABLE = False
+
 
 class PromptRewriter:
     """
@@ -50,6 +56,15 @@ class PromptRewriter:
             if not api_key:
                 raise ValueError("ANTHROPIC_API_KEY not found in environment")
             self.client = Anthropic(api_key=api_key)
+        elif self.provider == 'cerebras':
+            if not CEREBRAS_AVAILABLE:
+                raise ValueError(
+                    "Cerebras SDK not installed. Run: pip install cerebras-cloud-sdk"
+                )
+            api_key = os.getenv('CEREBRAS_API_KEY')
+            if not api_key:
+                raise ValueError("CEREBRAS_API_KEY environment variable not set")
+            self.client = Cerebras(api_key=api_key)
         else:
             raise ValueError(f"Unsupported LLM provider: {self.provider}")
 
@@ -302,6 +317,19 @@ Ensure the new_prompt is complete and ready to use. Do not use placeholders.
                 ]
             )
             return response.content[0].text
+
+        elif self.provider == 'cerebras':
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=[
+                    {"role": "system", "content": "You are an expert AI prompt engineer."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+                max_completion_tokens=4000,
+                stream=False
+            )
+            return response.choices[0].message.content
 
         else:
             raise ValueError(f"Unsupported provider: {self.provider}")

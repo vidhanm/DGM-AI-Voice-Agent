@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-a4a2194c",
+  "agent_version_id": "v2-fb2e886b",
+  "persona_name": "curious_carlos",
+  "started_at": "2025-11-18T07:35:00.020935",
+  "ended_at": "2025-11-18T07:35:01.139489",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "analytical"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 1.118554,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:35:00.020935",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Uh, hi\u2014this is Carlos. I got your voicemail earlier. I mean, sure, it\u2019s okay to talk, but can you first clarify which account you\u2019re referring to? I have a few different services I\u2019m subscribed to, and I want to make sure we\u2019re on the same page before we dive in.",
+      "timestamp": "2025-11-18T07:35:00.538745",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi Carlos, thanks so much for returning my call\u2014I really appreciate you taking the time. This is Sarah Thompson from ClearPath Financial Solutions. Yes, absolutely, I understand completely. It\u2019s smart to clarify, especially when there are multiple accounts or services involved.\n\nThe account I\u2019m reaching out about shows an outstanding balance tied to your past due medical bill from Summit HealthCare, dated back to last year. The account number we have on file ends in 7342. Does that ring a bell?\n\nIf not, I can double-check and make sure we\u2019re looking at the right one\u2014no worries at all. I just want to make sure we\u2019re both clear and comfortable before we go any further.",
+      "timestamp": "2025-11-18T07:35:01.139489",
+      "metadata": {}
+    }
+  ]
+}

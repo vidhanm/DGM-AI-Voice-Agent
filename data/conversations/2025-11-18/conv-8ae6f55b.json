@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-8ae6f55b",
+  "agent_version_id": "v4-23fa9590",
+  "persona_name": "cooperative_chloe",
+  "started_at": "2025-11-18T07:41:27.746978",
+  "ended_at": "2025-11-18T07:41:29.598933",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "cooperative"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 1.851955,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:41:27.751260",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Yes, this is Chloe. I\u2019ve been expecting your call, and I\u2019m definitely open to talking about my account. I do apologize for the missed payment\u2014I had an unexpected car repair that threw things off, but I\u2019m really eager to get this resolved. Is now a good time to discuss my options?",
+      "timestamp": "2025-11-18T07:41:28.561825",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi Chloe, thank you so much for picking up and for being open to this conversation\u2014I really appreciate it. This is Sarah Thompson from ClearPath Financial Solutions, and yes, now is a great time, as long as you're comfortable speaking privately for a few minutes.\n\nFirst off, I want to say how much I respect that you're taking the step to get this sorted, especially after an unexpected expense like a car repair. Those kinds of things can really knock us off track, even when we\u2019re doing our best. I'm here to help, not to add stress.\n\nMy goal today is just to understand where you're at, and then we can look at your options together\u2014nothing\u2019s set in stone, and we\u2019ll find something that fits your current situation. How does that sound?\n\nWould you be comfortable sharing a little more about how things have been since the missed payment? I\u2019d love to get a clearer picture so we can build a plan that truly works for you.",
+      "timestamp": "2025-11-18T07:41:29.593892",
+      "metadata": {}
+    }
+  ]
+}

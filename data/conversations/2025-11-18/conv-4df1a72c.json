@@ -1,0 +1,67 @@
+{
+  "conversation_id": "conv-4df1a72c",
+  "agent_version_id": "v0-73dacfb9",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-18T07:26:41.388644",
+  "ended_at": "2025-11-18T07:26:46.580068",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 8,
+  "status": "completed",
+  "outcome": "failure",
+  "termination_reason": "explicit_termination",
+  "evaluation_scores": {},
+  "duration_seconds": 5.191424,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:26:41.392638",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, hi... I guess? I mean, I'm kind of in the middle of something at work, but\u2014yeah, I guess it's okay. Just... make it quick?",
+      "timestamp": "2025-11-18T07:26:41.861406",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi, this is ${agent_name} from ${company_name}. I completely understand you're busy \u2014 I\u2019ll keep this brief. I\u2019m reaching out about an outstanding balance on your account. I know timing isn\u2019t ideal, but I\u2019d like to see how we can work together on a solution that fits your current situation.\n\nWould you be able to spare just a couple of minutes now, or would it be better to call you back at a more convenient time? I want to make sure you\u2019re not rushed.",
+      "timestamp": "2025-11-18T07:26:42.461949",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, um, thanks for saying that\u2014really. I just... I've been really stressed about this. I *do* want to fix it, I promise, but I\u2019m not sure I can talk details right now. Could you maybe... call me tomorrow? Or\u2014I don\u2019t know\u2014maybe next week? I just need a little more time to figure things out.",
+      "timestamp": "2025-11-18T07:26:43.325285",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "I hear you, and I appreciate you being honest \u2014 that means a lot. It\u2019s completely okay. We can absolutely wait until you\u2019re in a better place to talk. I\u2019m here to help when you\u2019re ready, not to add stress.\n\nHow about I call you back this time next week? Or, if you\u2019d prefer, you can reach out to me directly at ${company_phone} \u2014 no pressure, no rush. In the meantime, if anything comes up or you change your mind, we\u2019re here to listen and work something out.\n\nYou\u2019re not alone in this, and we\u2019ll figure it out together when the time\u2019s right for you. Does that sound okay?",
+      "timestamp": "2025-11-18T07:26:43.943640",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Yeah... yeah, that sounds good. Thank you for understanding. I\u2019ll\u2014um\u2014I\u2019ll try to have things sorted by then. Maybe I\u2019ll even call you? If I get things figured out. But, yeah, next week is probably better. Thanks for not being mad or anything.",
+      "timestamp": "2025-11-18T07:26:44.452528",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Of course \u2014 and please don\u2019t ever feel like you have to go through this alone. I\u2019m not here to judge or get upset \u2014 I\u2019m here to help you find a way forward when you\u2019re ready. That\u2019s what matters most.\n\nTake the time you need. I\u2019ll make a note to follow up next week, but I\u2019d actually love to hear from you if you\u2019re able to reach out sooner. No matter how things look, we can always work with what you\u2019ve got.\n\nHang in there, and remember \u2014 you\u2019re already taking steps by wanting to fix this. That counts for a lot. Have a good one, and I\u2019ll talk to you soon.",
+      "timestamp": "2025-11-18T07:26:45.143665",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Okay... thanks. Really. I *do* want to fix it, I just get so overwhelmed. I\u2019ll try not to put it off. Talk to you next week, I guess. Bye.",
+      "timestamp": "2025-11-18T07:26:46.580068",
+      "metadata": {}
+    }
+  ]
+}

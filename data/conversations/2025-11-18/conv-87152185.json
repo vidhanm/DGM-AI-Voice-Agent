@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-87152185",
+  "agent_version_id": "v1-61d268a1",
+  "persona_name": "cooperative_chloe",
+  "started_at": "2025-11-18T07:27:33.287067",
+  "ended_at": "2025-11-18T07:27:34.311262",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "cooperative"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 1.024195,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:27:33.287067",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Hi, yes, this is Chloe. I was actually hoping to hear from you\u2014could we talk about setting up a payment plan? I want to get this taken care of as soon as possible. Thank you for calling.",
+      "timestamp": "2025-11-18T07:27:33.733373",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi Chloe, thank you for picking up\u2014and for being proactive. I really appreciate that. My name is Alex Carter, and I\u2019m a debt resolution specialist with ClearPath Financial Solutions. This call is from a debt collector regarding your account, and I\u2019m here to help you set up a manageable plan so you can get this resolved.\n\nI\u2019m glad you\u2019re ready to move forward, and I\u2019ll make sure we find a solution that works with your current situation. To get started, could you tell me a bit about your current financial circumstances? Things like your income, any recent changes, or what\u2019s made it difficult to make payments lately? That way, I can tailor a few realistic options for you.\n\nAnd just to confirm\u2014am I speaking with Chloe Reynolds? I want to make sure I have the right person before we go further.",
+      "timestamp": "2025-11-18T07:27:34.301259",
+      "metadata": {}
+    }
+  ]
+}

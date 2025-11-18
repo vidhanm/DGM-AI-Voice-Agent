@@ -1,0 +1,37 @@
+{
+  "conversation_id": "conv-7f526ac6",
+  "agent_version_id": "v2-c29f26aa",
+  "persona_name": "cooperative_chloe",
+  "started_at": "2025-11-18T07:31:02.338514",
+  "ended_at": "2025-11-18T07:31:03.941604",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "cooperative"
+  },
+  "turn_count": 3,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 1.60309,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:31:02.354139",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Hi, yes, this is Chloe. I\u2019ve been expecting your call\u2014please let me know how I can get things sorted. I\u2019ve had a bit of a tough month, but I really want to take care of this.",
+      "timestamp": "2025-11-18T07:31:02.786342",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi Chloe, this is Sarah Thompson from ClearPath Financial Solutions. Thanks so much for taking my call\u2014I appreciate you being proactive about this. I'm here to help you get things sorted in a way that works for your situation.\n\nI hear you\u2019ve had a tough month, and I want to make sure we find a solution that fits your budget. My goal today is just to work with you on a realistic plan so we can get your account back on track.\n\nTo start, can you tell me a little about what\u2019s been going on financially? That way, I can better understand what kind of payment arrangement might make sense right now.",
+      "timestamp": "2025-11-18T07:31:03.941604",
+      "metadata": {}
+    }
+  ]
+}

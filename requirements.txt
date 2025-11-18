@@ -6,10 +6,21 @@ pydantic==2.5.0
 # LLM providers
 openai==1.6.1
 anthropic==0.8.1
+cerebras-cloud-sdk>=1.0.0  # Free, ultra-fast inference
 
-# LiveKit for voice
-livekit==0.12.0
-livekit-api==0.6.0
+# LiveKit Agents Framework for voice (v1.2+)
+# Main framework with core plugins
+livekit-agents==1.2.18
+
+# LiveKit plugins for STT/TTS/VAD
+livekit-plugins-deepgram==1.1.1      # Speech-to-Text (Deepgram Nova-3)
+livekit-plugins-cartesia==0.2.3      # Text-to-Speech (Cartesia Sonic)
+livekit-plugins-openai==0.9.5        # Alternative STT/TTS (OpenAI Whisper/TTS)
+livekit-plugins-silero==0.7.2        # Voice Activity Detection (Silero VAD)
+livekit-plugins-turn-detector==0.1.0 # Turn detection utilities
+
+# LiveKit API for room management
+livekit-api==0.7.0
 
 # Database
 sqlalchemy==2.0.23
@@ -45,3 +56,9 @@ httpx==0.25.2
 # Async support
 asyncio==3.4.3
 aiofiles==23.2.1
+
+# Web Framework (for web UI)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+websockets==12.0

@@ -80,16 +80,81 @@ cp .env.example .env
 
 ### Basic Usage
 
+#### Web Interface (Recommended)
+
+The easiest way to use this system is through the web interface:
+
+```bash
+# Install web dependencies
+pip install fastapi uvicorn websockets
+
+# Start the web server
+python app.py
+
+# Open browser to http://localhost:8000
+```
+
+The web UI provides:
+- 🏠 **Dashboard** - System status and quick actions
+- 🤖 **Simulate** - Run conversations with personas
+- 🧬 **Evolve** - Real-time evolution with progress tracking
+- 📊 **Evaluate** - Comprehensive agent evaluation
+- 📚 **Results** - Browse all agents and compare performance
+
+#### Command Line Interface
+
 ```bash
 # Run text-based simulation with personas
 python main.py --mode simulate --generations 5
 
-# Run single conversation with voice
+# Run voice agent (LiveKit)
 python main.py --mode voice
+
+# Or use the interactive demo
+python voice_demo.py dev
 
 # Run full evolution cycle
 python main.py --mode evolve --generations 10 --threshold 85
+
+# Use specific evolved agent for voice
+python main.py --mode voice --agent-id v5-abc123
+
+# Evaluate a specific agent
+python main.py --mode evaluate --agent-id v5-abc123
 ```
+
+### Voice Agent Setup
+
+1. **Install voice dependencies:**
+   ```bash
+   pip install "livekit-agents[deepgram,cartesia,silero]~=1.2"
+   ```
+
+2. **Set up API keys** (see `VOICE_SETUP.md` for details):
+   - LiveKit Cloud: https://cloud.livekit.io (free tier)
+   - Deepgram STT: https://console.deepgram.com ($200 free credit)
+   - Cartesia TTS: https://cartesia.ai
+
+3. **Update `.env` file:**
+   ```bash
+   LIVEKIT_URL=wss://your-project.livekit.cloud
+   LIVEKIT_API_KEY=your_api_key
+   LIVEKIT_API_SECRET=your_api_secret
+   DEEPGRAM_API_KEY=your_deepgram_key
+   CARTESIA_API_KEY=your_cartesia_key
+   ```
+
+4. **Run the voice agent:**
+   ```bash
+   python voice_demo.py dev
+   ```
+
+5. **Join the room:**
+   - Open https://cloud.livekit.io/projects/<your-project>/rooms
+   - Or use LiveKit Playground: https://meet.livekit.io/
+   - Allow microphone access and start talking!
+
+See [VOICE_SETUP.md](VOICE_SETUP.md) for detailed setup instructions.
 
 ---
 

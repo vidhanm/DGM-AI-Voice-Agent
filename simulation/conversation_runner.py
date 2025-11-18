@@ -146,6 +146,9 @@ class ConversationRunner:
         # Determine outcome
         outcome = self._determine_outcome(termination_reason)
 
+        # Capture transcript before logger clears it
+        transcript = [turn.to_dict() for turn in self.logger.current_turns]
+
         # End logging (we'll add evaluation in Phase 3)
         log_file = self.logger.end_conversation(
             outcome=outcome,
@@ -167,6 +170,7 @@ class ConversationRunner:
             'conversation_id': self.conversation_id,
             'agent_version_id': self.agent.agent_version_id,
             'persona_name': self.persona.persona_name,
+            'transcript': transcript,
             'turn_count': self.turn_count,
             'outcome': outcome,
             'termination_reason': termination_reason,

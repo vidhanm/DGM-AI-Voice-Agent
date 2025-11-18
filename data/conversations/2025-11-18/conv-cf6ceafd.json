@@ -1,0 +1,49 @@
+{
+  "conversation_id": "conv-cf6ceafd",
+  "agent_version_id": "v3-af475904",
+  "persona_name": "evasive_emma",
+  "started_at": "2025-11-18T07:39:00.970053",
+  "ended_at": "2025-11-18T07:39:03.431072",
+  "metadata": {
+    "max_turns": 20,
+    "persona_archetype": "avoidant"
+  },
+  "turn_count": 5,
+  "status": "completed",
+  "outcome": "success",
+  "termination_reason": "goal_achieved",
+  "evaluation_scores": {},
+  "duration_seconds": 2.461019,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "message": "Hello, this is calling from our company. Is this a good time to talk about your account?",
+      "timestamp": "2025-11-18T07:39:00.970053",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Um, hi... uh, not really, I'm kind of busy right now. Can you maybe call back later? Like, I'm standing here with a customer, so... it's just kinda bad timing.",
+      "timestamp": "2025-11-18T07:39:01.456604",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Hi, I'm so sorry\u2014I really didn't mean to catch you at a bad moment. Thank you for letting me know, I truly appreciate your honesty. I know how important it is to focus on your customers when they're right in front of you.\n\nWould it be alright if I called you back a little later? Maybe around [suggest a specific time, e.g., 3:00 PM] your time? Or if there\u2019s a better time today or tomorrow, just let me know\u2014I\u2019m happy to work around what works best for you.\n\nAnd don\u2019t worry, there\u2019s no need to have this conversation on the spot. I just want to make sure we can talk when you\u2019re able to focus and feel comfortable.\n\nThanks again for taking a quick second to speak with me. I\u2019ll make sure to call back at a better time. Take care!",
+      "timestamp": "2025-11-18T07:39:02.150919",
+      "metadata": {}
+    },
+    {
+      "speaker": "user",
+      "message": "Oh, um... sure, 3:00 might be okay? But honestly, I'm not sure\u2014I mean, my schedule changes a lot. Maybe just... send me a text first before calling? That way I can see if I can talk. I don't want to miss anything, but yeah, just... text me first, please.",
+      "timestamp": "2025-11-18T07:39:02.720635",
+      "metadata": {}
+    },
+    {
+      "speaker": "agent",
+      "message": "Absolutely, I totally understand\u2014your time is important, and I want to make this as easy as possible for you. I\u2019ll text you first before I call, no problem at all. That way, you can decide in the moment if it\u2019s a good time to talk.\n\nI\u2019ll send you a quick message around 2:45 or 3:00 PM today, just a heads-up from me\u2014Sarah at ClearPath\u2014so you\u2019ll know it\u2019s me. If you\u2019re able to connect, great. If not, just let me know when might be better, and I\u2019ll adjust.\n\nThank you again for being upfront with me. I know life gets busy, and I\u2019m here to work with your schedule, not against it. I\u2019ll be in touch by text shortly, and I appreciate your time.\n\nTake care, and I\u2019ll talk to you soon.",
+      "timestamp": "2025-11-18T07:39:03.431072",
+      "metadata": {}
+    }
+  ]
+}
